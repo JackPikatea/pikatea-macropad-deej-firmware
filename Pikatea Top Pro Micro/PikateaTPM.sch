@@ -235,9 +235,9 @@ Text Label 10350 2400 0    60   ~ 0
 PB6
 Text Label 10350 2500 0    60   ~ 0
 PB7
-Text Label 3700 4350 0    60   ~ 0
-PD3
 Text Label 3700 4450 0    60   ~ 0
+PD3
+Text Label 3700 4350 0    60   ~ 0
 PD2
 $Comp
 L power:GND #PWR012
@@ -283,11 +283,11 @@ Text Label 4800 4850 2    60   ~ 0
 PF5
 Text Label 4800 4950 2    60   ~ 0
 PF6
-Text Label 3800 4750 0    60   ~ 0
-PB7
-Text Label 3800 4850 0    60   ~ 0
-PD5
 Text Label 3800 4950 0    60   ~ 0
+PB7
+Text Label 3700 4550 0    60   ~ 0
+PD5
+Text Label 3800 4850 0    60   ~ 0
 PC7
 Text Label 4650 4550 0    60   ~ 0
 PF0
@@ -531,9 +531,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 3900 10750 4000
 Wire Wire Line
-	3700 4550 4100 4550
-Wire Wire Line
-	4100 4650 3700 4650
+	4100 4650 3800 4650
 Wire Wire Line
 	3700 4750 3800 4750
 Wire Wire Line
@@ -550,7 +548,6 @@ Wire Wire Line
 	4800 4850 4900 4850
 Wire Wire Line
 	4800 4950 4900 4950
-Connection ~ 4100 4650
 Wire Wire Line
 	7900 1600 7900 1800
 Wire Wire Line
@@ -694,8 +691,6 @@ Wire Wire Line
 	6800 2900 7600 2900
 Wire Wire Line
 	4100 4650 4100 4750
-Wire Wire Line
-	4100 4550 4100 4650
 Wire Wire Line
 	7900 1800 8000 1800
 Wire Wire Line
@@ -871,31 +866,31 @@ Wire Wire Line
 	6250 4050 6100 4050
 Wire Wire Line
 	6100 4050 6100 3950
-Text Label 5700 4150 0    50   ~ 0
-PB6
-Text Label 5700 4250 0    50   ~ 0
-PB1
-Text Label 5700 4350 0    50   ~ 0
-PB2
 Text Label 5700 4450 0    50   ~ 0
-PB3
-Text Label 5700 4550 0    50   ~ 0
-PF7
-Text Label 5700 4650 0    50   ~ 0
-PE6
-Text Label 5700 4750 0    50   ~ 0
-PB4
-Text Label 5700 4850 0    50   ~ 0
-PB5
+PB6
 Text Label 5700 4950 0    50   ~ 0
-PD7
+PB1
 Text Label 5700 5050 0    50   ~ 0
+PB2
+Text Label 5700 5350 0    50   ~ 0
+PB3
+Text Label 5700 4250 0    50   ~ 0
+PF7
+Text Label 5700 4150 0    50   ~ 0
+PE6
+Text Label 5700 4650 0    50   ~ 0
+PB4
+Text Label 5700 4550 0    50   ~ 0
+PB5
+Text Label 5700 4750 0    50   ~ 0
+PD7
+Text Label 5700 4350 0    50   ~ 0
 PC6
 Text Label 5700 5150 0    50   ~ 0
 PD1
-Text Label 5700 5250 0    50   ~ 0
+Text Label 5700 4850 0    50   ~ 0
 PD4
-Text Label 5700 5350 0    50   ~ 0
+Text Label 5700 5250 0    50   ~ 0
 PD0
 Wire Wire Line
 	5700 4150 6250 4150
@@ -1007,4 +1002,9 @@ Text Label 7500 3150 2    60   ~ 0
 MCU_D+
 Text Label 7600 3250 2    60   ~ 0
 MCU_D-
+Wire Wire Line
+	3800 4750 3800 4650
+Connection ~ 3800 4650
+Wire Wire Line
+	3800 4650 3700 4650
 $EndSCHEMATC
