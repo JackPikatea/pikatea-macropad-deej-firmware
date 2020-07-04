@@ -391,4 +391,161 @@ Wire Wire Line
 Connection ~ 2900 1700
 Wire Wire Line
 	2900 1700 2500 1700
+Text Label 7650 3550 0    50   ~ 0
+Pin?
+Text Label 7650 3200 0    50   ~ 0
+Pin?
+Text Label 7650 2800 0    50   ~ 0
+Pin?
+Text Label 7650 2450 0    50   ~ 0
+Pin?
+Text Label 7650 2100 0    50   ~ 0
+Pin?
+Wire Wire Line
+	8250 2100 7650 2100
+Wire Wire Line
+	8250 2450 7650 2450
+Wire Wire Line
+	8250 2800 7650 2800
+Wire Wire Line
+	8250 3550 7650 3550
+Text Label 8950 2600 0    50   ~ 0
+Pin?
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5F07F9BA
+P 8450 4350
+F 0 "SW1" H 8450 4717 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8450 4626 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 8300 4510 50  0001 C CNN
+F 3 "~" H 8450 4610 50  0001 C CNN
+	1    8450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4250 8750 4250
+$Comp
+L power:GND #PWR0103
+U 1 1 5F083C63
+P 7850 4350
+F 0 "#PWR0103" H 7850 4100 50  0001 C CNN
+F 1 "GND" V 7855 4222 50  0000 R CNN
+F 2 "" H 7850 4350 50  0001 C CNN
+F 3 "" H 7850 4350 50  0001 C CNN
+	1    7850 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 4350 8150 4350
+Text Label 7700 4100 0    50   ~ 0
+Pin?
+Text Label 7700 4650 0    50   ~ 0
+Pin?
+Wire Wire Line
+	8150 4250 7900 4250
+Wire Wire Line
+	7900 4250 7900 4100
+Wire Wire Line
+	7900 4100 7700 4100
+Wire Wire Line
+	8150 4450 7900 4450
+Wire Wire Line
+	7900 4450 7900 4650
+Wire Wire Line
+	7900 4650 7700 4650
+Text Label 9150 4250 2    50   ~ 0
+Pin?
+$Comp
+L power:GND #PWR0104
+U 1 1 5F08DC47
+P 9150 4450
+F 0 "#PWR0104" H 9150 4200 50  0001 C CNN
+F 1 "GND" V 9155 4322 50  0000 R CNN
+F 2 "" H 9150 4450 50  0001 C CNN
+F 3 "" H 9150 4450 50  0001 C CNN
+	1    9150 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 4450 8750 4450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 5F096095
+P 8300 1950
+F 0 "MX1" H 8333 2173 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 2099 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7675 1925 60  0001 C CNN
+F 3 "" H 7675 1925 60  0001 C CNN
+	1    8300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 5F096A04
+P 8300 2300
+F 0 "MX2" H 8333 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 2449 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7675 2275 60  0001 C CNN
+F 3 "" H 7675 2275 60  0001 C CNN
+	1    8300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 5F096DF4
+P 8300 2650
+F 0 "MX3" H 8333 2873 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 2799 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7675 2625 60  0001 C CNN
+F 3 "" H 7675 2625 60  0001 C CNN
+	1    8300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3200 8250 3200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 5F097C77
+P 8300 3050
+F 0 "MX4" H 8333 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 3199 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7675 3025 60  0001 C CNN
+F 3 "" H 7675 3025 60  0001 C CNN
+	1    8300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 5F098026
+P 8300 3400
+F 0 "MX5" H 8333 3623 60  0000 C CNN
+F 1 "MX-NoLED" H 8333 3549 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7675 3375 60  0001 C CNN
+F 3 "" H 7675 3375 60  0001 C CNN
+	1    8300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3350 8650 3350
+Wire Wire Line
+	8650 3350 8650 3000
+Wire Wire Line
+	8650 3000 8450 3000
+Wire Wire Line
+	8650 3000 8650 2600
+Wire Wire Line
+	8650 2600 8450 2600
+Connection ~ 8650 3000
+Wire Wire Line
+	8650 2600 8650 2250
+Wire Wire Line
+	8650 2250 8450 2250
+Connection ~ 8650 2600
+Wire Wire Line
+	8650 2250 8650 1900
+Wire Wire Line
+	8650 1900 8450 1900
+Connection ~ 8650 2250
+Wire Wire Line
+	8950 2600 8650 2600
 $EndSCHEMATC
