@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:PikateaTPM-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -725,28 +726,6 @@ Wire Wire Line
 	6000 1400 6300 1400
 Wire Wire Line
 	6300 1400 6600 1400
-$Comp
-L Device:R R6
-U 1 1 5CBBA935
-P 6900 1150
-F 0 "R6" V 6980 1150 50  0000 C CNN
-F 1 "10k" V 6900 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 1150 50  0001 C CNN
-F 3 "" H 6900 1150 50  0001 C CNN
-F 4 "C25744" V 6900 1150 50  0001 C CNN "LCSC"
-	1    6900 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6900 1000 6900 900 
-Wire Wire Line
-	6900 900  6600 900 
-Connection ~ 6600 900 
-Wire Wire Line
-	6900 1300 6900 1400
-Wire Wire Line
-	6900 1400 6600 1400
-Connection ~ 6600 1400
 Text Label 10350 3500 0    60   ~ 0
 PD5
 NoConn ~ 10350 3600
@@ -1024,4 +1003,8 @@ Wire Wire Line
 Connection ~ 4100 3100
 Wire Wire Line
 	4100 3100 4350 3100
+Text Label 7500 3150 2    60   ~ 0
+MCU_D+
+Text Label 7600 3250 2    60   ~ 0
+MCU_D-
 $EndSCHEMATC
