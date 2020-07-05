@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PikateaTPM-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -747,6 +746,7 @@ F 0 "J1" H 3707 3567 50  0000 C CNN
 F 1 "USB_B_Mini" H 3707 3476 50  0000 C CNN
 F 2 "usb_mini:USB-Mini-B_ LCSC-C46398" H 3800 3050 50  0001 C CNN
 F 3 "~" H 3800 3050 50  0001 C CNN
+F 4 "C46398" H 3650 3100 50  0001 C CNN "LCSC"
 	1    3650 3100
 	1    0    0    -1  
 $EndComp
@@ -773,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 2900 4350 2750
 $Comp
-L Connector:AVR-ISP-6 J6
+L PikateaTPM-rescue:AVR-ISP-6-Connector J6
 U 1 1 5F129CF4
 P 5500 2800
 F 0 "J6" H 5171 2896 50  0000 R CNN

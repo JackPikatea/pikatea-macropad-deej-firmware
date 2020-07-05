@@ -1,0 +1,26 @@
+Source:,C:\Users\jackr\Documents\KiCad\PikateaPCB\Pikatea Top Pro Micro\PikateaTPM.sch,,,,,
+Date:,7/4/2020 10:34:56 PM,,,,,
+Tool:,Eeschema (5.1.5)-3,,,,,
+Component Count:,21,,,,,
+Ref,Value,Footprint,Datasheet,Manufacturer,Vendor,LCSC
+C1,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+C2,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+C3,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+C4,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+C5,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+C6,4u7,Capacitor_SMD:C_0402_1005Metric,,,,C23733
+C7,22p,Capacitor_SMD:C_0402_1005Metric,,,,C1555
+C8,22p,Capacitor_SMD:C_0402_1005Metric,,,,C1555
+C9,1u,Capacitor_SMD:C_0402_1005Metric,,,,C52923
+C10,0u1,Capacitor_SMD:C_0402_1005Metric,,,,C1525
+J1,USB_B_Mini,usb_mini:USB-Mini-B_ LCSC-C46398,~,,,C46398
+J2,Conn_01x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,
+J3,Conn_01x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,
+J4,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,,,
+J6,AVR-ISP-6,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical, ~,,,
+J7,01x15,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,~,,,
+R3,10k,Resistor_SMD:R_0402_1005Metric,,,,C25744
+R4,22,Resistor_SMD:R_0402_1005Metric,,,,C25092
+R5,22,Resistor_SMD:R_0402_1005Metric,,,,C25092
+U1,ATmega32U4,Package_QFP:TQFP-44_10x10mm_P0.8mm,,,,C44854
+X1,16MHz,Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm,,,,C13738
