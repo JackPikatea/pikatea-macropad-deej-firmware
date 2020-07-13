@@ -826,28 +826,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2600 6250 2600
 $Comp
-L Connector_Generic:Conn_01x15 J7
-U 1 1 5F1687DA
-P 6450 4750
-F 0 "J7" H 6530 4792 50  0000 L CNN
-F 1 "01x15" H 6530 4701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 6450 4750 50  0001 C CNN
-F 3 "~" H 6450 4750 50  0001 C CNN
-	1    6450 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0105
-U 1 1 5F16DE4C
-P 6100 3950
-F 0 "#PWR0105" H 6100 3800 50  0001 C CNN
-F 1 "VCC" H 6117 4123 50  0000 C CNN
-F 2 "" H 6100 3950 50  0001 C CNN
-F 3 "" H 6100 3950 50  0001 C CNN
-	1    6100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0106
 U 1 1 5F16E63E
 P 6100 5600
@@ -865,7 +843,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4050 6100 4050
 Wire Wire Line
-	6100 4050 6100 3950
+	6100 4050 6100 4000
 Text Label 5700 4450 0    50   ~ 0
 PB6
 Text Label 5700 4950 0    50   ~ 0
@@ -1007,4 +985,34 @@ Wire Wire Line
 Connection ~ 3800 4650
 Wire Wire Line
 	3800 4650 3700 4650
+$Comp
+L Connector_Generic:Conn_01x16 J5
+U 1 1 5F10039A
+P 6450 4750
+F 0 "J5" H 6530 4742 50  0000 L CNN
+F 1 "Conn_01x16" H 6530 4651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6450 4750 50  0001 C CNN
+F 3 "~" H 6450 4750 50  0001 C CNN
+	1    6450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4000 5850 4000
+Wire Wire Line
+	6250 5500 5950 5500
+Wire Wire Line
+	6250 5550 6250 5500
+Text Label 5950 5500 2    50   ~ 0
+RESET
+$Comp
+L power:VCC #PWR0105
+U 1 1 5F16DE4C
+P 5850 4000
+F 0 "#PWR0105" H 5850 3850 50  0001 C CNN
+F 1 "VCC" V 5867 4173 50  0000 C CNN
+F 2 "" H 5850 4000 50  0001 C CNN
+F 3 "" H 5850 4000 50  0001 C CNN
+	1    5850 4000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

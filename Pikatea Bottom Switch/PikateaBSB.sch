@@ -64,8 +64,6 @@ Wire Wire Line
 	4400 3900 4400 3700
 Connection ~ 4400 3700
 Wire Wire Line
-	4100 3250 4100 1950
-Wire Wire Line
 	4100 1950 6250 1950
 Wire Wire Line
 	6250 1950 6250 2700
@@ -114,10 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 2750 3450 2750
 Wire Wire Line
-	3850 2850 3850 2800
-Wire Wire Line
-	3850 2800 4400 2800
-Wire Wire Line
 	4550 3150 4550 4000
 Wire Wire Line
 	4550 4000 6450 4000
@@ -151,17 +145,6 @@ Wire Wire Line
 	3700 2400 4000 2400
 Wire Wire Line
 	3700 2700 4400 2700
-$Comp
-L Connector_Generic:Conn_01x15 J2
-U 1 1 5F008FC7
-P 6250 800
-F 0 "J2" V 6467 796 50  0000 C CNN
-F 1 "Conn_01x15" V 6376 796 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 6250 800 50  0001 C CNN
-F 3 "~" H 6250 800 50  0001 C CNN
-	1    6250 800 
-	0    -1   -1   0   
-$EndComp
 Text Label 5550 1150 3    50   ~ 0
 5v
 Wire Wire Line
@@ -171,15 +154,15 @@ GND
 Wire Wire Line
 	6950 1150 6950 1000
 Text Label 5950 1150 3    50   ~ 0
-Pin5
+CS
 Wire Wire Line
 	5950 1150 5950 1000
 Text Label 5850 1150 3    50   ~ 0
-Pin4
+D5
 Text Label 5750 1150 3    50   ~ 0
-Pin3
+A0
 Text Label 5650 1150 3    50   ~ 0
-Pin2
+D7
 Wire Wire Line
 	5650 1150 5650 1000
 Wire Wire Line
@@ -187,25 +170,25 @@ Wire Wire Line
 Wire Wire Line
 	5850 1150 5850 1000
 Text Label 6050 1150 3    50   ~ 0
-Pin6
+D9
 Wire Wire Line
 	6050 1150 6050 1000
 Text Label 6150 1150 3    50   ~ 0
-Pin7
+D8
 Text Label 6250 1150 3    50   ~ 0
-Pin8
+D6
 Text Label 6350 1150 3    50   ~ 0
-Pin9
+D4
 Text Label 6450 1150 3    50   ~ 0
-Pin10
+SCK
 Text Label 6550 1150 3    50   ~ 0
-Pin11
+MOSI
 Text Label 6650 1150 3    50   ~ 0
-Pin12
+D2
 Text Label 6750 1150 3    50   ~ 0
-Pin13
+D3
 Text Label 6850 1150 3    50   ~ 0
-Pin14
+MISO
 Wire Wire Line
 	6150 1150 6150 1000
 Wire Wire Line
@@ -223,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1150 6850 1000
 Text Label 4100 4150 1    50   ~ 0
-Pin?
+CS
 Wire Wire Line
 	4100 4150 4100 3900
 $Comp
@@ -237,37 +220,14 @@ F 3 "~" H 3900 3750 50  0001 C CNN
 	1    3900 3750
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Micro_SD_Card J1
-U 1 1 5F015682
-P 2000 3050
-F 0 "J1" H 1950 2233 50  0000 C CNN
-F 1 "Micro_SD_Card" H 1950 2324 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 3150 3350 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 2000 3050 50  0001 C CNN
-	1    2000 3050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3550 3500 4650 3500
-Wire Wire Line
-	2900 2850 3850 2850
-Wire Wire Line
-	2900 2750 3150 2750
-Wire Wire Line
-	2900 2950 4150 2950
-Wire Wire Line
-	2900 3050 4300 3050
-Wire Wire Line
-	2900 3150 4550 3150
-Wire Wire Line
-	2900 3250 4100 3250
 Wire Wire Line
 	3900 3600 3900 3300
 Wire Wire Line
 	3900 3300 4650 3300
 Text Label 3900 4150 1    50   ~ 0
-Pin?
+SCK
 $Comp
 L Device:R R3
 U 1 1 5F02C83C
@@ -284,13 +244,13 @@ Wire Wire Line
 Wire Wire Line
 	3650 3200 3650 3600
 Text Label 3650 4150 1    50   ~ 0
-Pin?
+MOSI
 Wire Wire Line
 	3900 4150 3900 3900
 Wire Wire Line
 	3650 4150 3650 3900
 Text Label 6250 3200 1    50   ~ 0
-Pin?
+MISO
 Wire Wire Line
 	6050 2800 6250 2800
 Wire Wire Line
@@ -391,26 +351,12 @@ Wire Wire Line
 Connection ~ 2900 1700
 Wire Wire Line
 	2900 1700 2500 1700
-Text Label 7650 3550 0    50   ~ 0
-Pin?
-Text Label 7650 3200 0    50   ~ 0
-Pin?
-Text Label 7650 2800 0    50   ~ 0
-Pin?
-Text Label 7650 2450 0    50   ~ 0
-Pin?
-Text Label 7650 2100 0    50   ~ 0
-Pin?
-Wire Wire Line
-	8250 2100 7650 2100
-Wire Wire Line
-	8250 2450 7650 2450
-Wire Wire Line
-	8250 2800 7650 2800
-Wire Wire Line
-	8250 3550 7650 3550
-Text Label 8950 2600 0    50   ~ 0
-Pin?
+Text Label 10800 1150 0    50   ~ 0
+D7
+Text Label 9000 1150 0    50   ~ 0
+D9
+Text Label 8500 1500 0    50   ~ 0
+A0
 $Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 5F07F9BA
@@ -423,7 +369,7 @@ F 3 "~" H 8450 4610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 4250 8750 4250
+	9150 4250 8850 4250
 $Comp
 L power:GND #PWR0103
 U 1 1 5F083C63
@@ -436,11 +382,11 @@ F 3 "" H 7850 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7850 4350 8150 4350
+	7850 4350 8100 4350
 Text Label 7700 4100 0    50   ~ 0
-Pin?
+D4
 Text Label 7700 4650 0    50   ~ 0
-Pin?
+D3
 Wire Wire Line
 	8150 4250 7900 4250
 Wire Wire Line
@@ -448,104 +394,258 @@ Wire Wire Line
 Wire Wire Line
 	7900 4100 7700 4100
 Wire Wire Line
-	8150 4450 7900 4450
+	8150 4450 8050 4450
 Wire Wire Line
 	7900 4450 7900 4650
 Wire Wire Line
 	7900 4650 7700 4650
 Text Label 9150 4250 2    50   ~ 0
-Pin?
-$Comp
-L power:GND #PWR0104
-U 1 1 5F08DC47
-P 9150 4450
-F 0 "#PWR0104" H 9150 4200 50  0001 C CNN
-F 1 "GND" V 9155 4322 50  0000 R CNN
-F 2 "" H 9150 4450 50  0001 C CNN
-F 3 "" H 9150 4450 50  0001 C CNN
-	1    9150 4450
-	0    -1   -1   0   
-$EndComp
+D2
 Wire Wire Line
-	9150 4450 8750 4450
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
-U 1 1 5F096095
-P 8300 1950
-F 0 "MX1" H 8333 2173 60  0000 C CNN
-F 1 "MX-NoLED" H 8333 2099 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7675 1925 60  0001 C CNN
-F 3 "" H 7675 1925 60  0001 C CNN
-	1    8300 1950
-	1    0    0    -1  
-$EndComp
+	9150 4450 8900 4450
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 5F096A04
-P 8300 2300
-F 0 "MX2" H 8333 2523 60  0000 C CNN
-F 1 "MX-NoLED" H 8333 2449 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7675 2275 60  0001 C CNN
-F 3 "" H 7675 2275 60  0001 C CNN
-	1    8300 2300
+P 9300 1200
+F 0 "MX2" H 9333 1423 60  0000 C CNN
+F 1 "MX-NoLED" H 9333 1349 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8675 1175 60  0001 C CNN
+F 3 "" H 8675 1175 60  0001 C CNN
+	1    9300 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 5F096DF4
-P 8300 2650
-F 0 "MX3" H 8333 2873 60  0000 C CNN
-F 1 "MX-NoLED" H 8333 2799 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7675 2625 60  0001 C CNN
-F 3 "" H 7675 2625 60  0001 C CNN
-	1    8300 2650
+P 9750 1200
+F 0 "MX3" H 9783 1423 60  0000 C CNN
+F 1 "MX-NoLED" H 9783 1349 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 9125 1175 60  0001 C CNN
+F 3 "" H 9125 1175 60  0001 C CNN
+	1    9750 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 3200 8250 3200
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4
 U 1 1 5F097C77
-P 8300 3050
-F 0 "MX4" H 8333 3273 60  0000 C CNN
-F 1 "MX-NoLED" H 8333 3199 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7675 3025 60  0001 C CNN
-F 3 "" H 7675 3025 60  0001 C CNN
-	1    8300 3050
+P 10200 1200
+F 0 "MX4" H 10233 1423 60  0000 C CNN
+F 1 "MX-NoLED" H 10233 1349 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 9575 1175 60  0001 C CNN
+F 3 "" H 9575 1175 60  0001 C CNN
+	1    10200 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX5
-U 1 1 5F098026
-P 8300 3400
-F 0 "MX5" H 8333 3623 60  0000 C CNN
-F 1 "MX-NoLED" H 8333 3549 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 7675 3375 60  0001 C CNN
-F 3 "" H 7675 3375 60  0001 C CNN
-	1    8300 3400
+L uSD_push-push_ebay:SD_ebay-uSD-push_push_SMD XS1
+U 1 1 5F0CE28A
+P 2250 4450
+F 0 "XS1" H 1946 4496 50  0000 R CNN
+F 1 "SD_ebay-uSD-push_push_SMD" H 1946 4405 50  0000 R CNN
+F 2 "Sd-Card:Conn_uSDcard" H 2250 4450 10  0001 C CNN
+F 3 "_" H 2250 4450 10  0001 C CNN
+F 4 "_" H 2250 4450 10  0001 C CNN "Manf#"
+F 5 "ebay" H 2250 4450 10  0001 C CNN "Manf"
+	1    2250 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 3350 8650 3350
+	2100 3850 2100 3825
 Wire Wire Line
-	8650 3350 8650 3000
+	2100 3700 3150 3700
 Wire Wire Line
-	8650 3000 8450 3000
+	3150 3700 3150 3050
+Connection ~ 2100 3825
 Wire Wire Line
-	8650 3000 8650 2600
+	2100 3825 2100 3700
 Wire Wire Line
-	8650 2600 8450 2600
-Connection ~ 8650 3000
+	3150 3050 4300 3050
+$Comp
+L power:GND #PWR0105
+U 1 1 5F0D33E1
+P 2100 5350
+F 0 "#PWR0105" H 2100 5100 50  0001 C CNN
+F 1 "GND" H 2105 5177 50  0000 C CNN
+F 2 "" H 2100 5350 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8650 2600 8650 2250
+	2100 5050 2100 5075
+Connection ~ 2100 5075
 Wire Wire Line
-	8650 2250 8450 2250
-Connection ~ 8650 2600
+	2100 5075 2100 5350
 Wire Wire Line
-	8650 2250 8650 1900
+	2600 4000 2625 4000
 Wire Wire Line
-	8650 1900 8450 1900
-Connection ~ 8650 2250
+	3200 4000 3200 2950
+Connection ~ 2625 4000
 Wire Wire Line
-	8950 2600 8650 2600
+	2625 4000 3200 4000
+Wire Wire Line
+	3200 2950 4150 2950
+Wire Wire Line
+	2600 4150 2625 4150
+Wire Wire Line
+	3250 4150 3250 3150
+Connection ~ 2625 4150
+Wire Wire Line
+	2625 4150 3250 4150
+Wire Wire Line
+	3250 3150 4550 3150
+Wire Wire Line
+	2600 4300 2625 4300
+Wire Wire Line
+	3300 4300 3300 3250
+Connection ~ 2625 4300
+Wire Wire Line
+	2625 4300 3300 4300
+Wire Wire Line
+	3300 3250 4100 3250
+Wire Wire Line
+	2600 4750 2625 4750
+Wire Wire Line
+	3100 4750 3100 2750
+Connection ~ 2625 4750
+Wire Wire Line
+	2625 4750 3100 4750
+Wire Wire Line
+	3100 2750 3150 2750
+Wire Wire Line
+	2600 4900 2625 4900
+Wire Wire Line
+	4100 3250 4100 1950
+$Comp
+L Connector_Generic:Conn_01x16 J1
+U 1 1 5F13E931
+P 6250 800
+F 0 "J1" V 6467 746 50  0000 C CNN
+F 1 "Conn_01x16" V 6376 746 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6250 800 50  0001 C CNN
+F 3 "~" H 6250 800 50  0001 C CNN
+	1    6250 800 
+	0    -1   -1   0   
+$EndComp
+Text Label 7050 1150 3    50   ~ 0
+RESET
+Wire Wire Line
+	7050 1150 7050 1000
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5F155281
+P 7800 3850
+F 0 "J2" H 7718 3525 50  0000 C CNN
+F 1 "Conn_01x03" H 7718 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7800 3850 50  0001 C CNN
+F 3 "~" H 7800 3850 50  0001 C CNN
+	1    7800 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3750 8150 3750
+Wire Wire Line
+	8150 3750 8150 4250
+Connection ~ 8150 4250
+Wire Wire Line
+	8000 3850 8100 3850
+Wire Wire Line
+	8100 3850 8100 4350
+Connection ~ 8100 4350
+Wire Wire Line
+	8100 4350 8150 4350
+Wire Wire Line
+	8000 3950 8050 3950
+Wire Wire Line
+	8050 3950 8050 4450
+Connection ~ 8050 4450
+Wire Wire Line
+	8050 4450 7900 4450
+Wire Wire Line
+	9150 3800 8850 3800
+Wire Wire Line
+	8850 3800 8850 4250
+Connection ~ 8850 4250
+Wire Wire Line
+	8850 4250 8750 4250
+Wire Wire Line
+	9150 3900 8900 3900
+Wire Wire Line
+	8900 3900 8900 4450
+Connection ~ 8900 4450
+Wire Wire Line
+	8900 4450 8750 4450
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5F17285E
+P 9450 3850
+F 0 "J3" H 9530 3892 50  0000 L CNN
+F 1 "Conn_01x03" H 9530 3801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9450 3850 50  0001 C CNN
+F 3 "~" H 9450 3850 50  0001 C CNN
+	1    9450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3750 9150 3750
+Wire Wire Line
+	9150 3750 9150 3800
+Wire Wire Line
+	9250 3950 9150 3950
+Wire Wire Line
+	9150 3950 9150 3900
+Text Label 9150 4450 0    50   ~ 0
+A0
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 5F096095
+P 8850 1200
+F 0 "MX1" H 8883 1423 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 1349 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8225 1175 60  0001 C CNN
+F 3 "" H 8225 1175 60  0001 C CNN
+	1    8850 1200
+	1    0    0    -1  
+$EndComp
+Text Label 9450 1150 0    50   ~ 0
+D6
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 5F098026
+P 10650 1200
+F 0 "MX5" H 10683 1423 60  0000 C CNN
+F 1 "MX-NoLED" H 10683 1349 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 10025 1175 60  0001 C CNN
+F 3 "" H 10025 1175 60  0001 C CNN
+	1    10650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1350 10600 1500
+Wire Wire Line
+	10600 1500 10150 1500
+Wire Wire Line
+	8800 1350 8800 1500
+Connection ~ 8800 1500
+Wire Wire Line
+	8800 1500 8500 1500
+Wire Wire Line
+	9250 1350 9250 1500
+Connection ~ 9250 1500
+Wire Wire Line
+	9250 1500 8800 1500
+Wire Wire Line
+	9700 1350 9700 1500
+Connection ~ 9700 1500
+Wire Wire Line
+	9700 1500 9250 1500
+Wire Wire Line
+	10150 1350 10150 1500
+Connection ~ 10150 1500
+Wire Wire Line
+	10150 1500 9700 1500
+Text Label 10350 1150 0    50   ~ 0
+D8
+Text Label 9900 1150 0    50   ~ 0
+D5
 $EndSCHEMATC

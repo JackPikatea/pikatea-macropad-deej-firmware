@@ -5,4 +5,5 @@
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid-master/MX_Only.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name Sd-Card)(type KiCad)(uri ${KIPRJMOD}/Sd-Card)(options "")(descr ""))
 )

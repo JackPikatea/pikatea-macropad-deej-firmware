@@ -1,4 +1,4 @@
-17460289453141670
+17461884115167056
 Alps_Only
 ALPS-1.5U
 
@@ -70146,6 +70146,13 @@ rotary encoder
 0
 5
 4
+Sd-Card
+Conn_uSDcard
+
+
+0
+13
+9
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
