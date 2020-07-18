@@ -353,7 +353,7 @@ Wire Wire Line
 	2900 1700 2500 1700
 Text Label 10800 1150 0    50   ~ 0
 D7
-Text Label 9900 1150 0    50   ~ 0
+Text Label 9000 1150 0    50   ~ 0
 D9
 Text Label 8500 1500 0    50   ~ 0
 A0
@@ -607,7 +607,7 @@ F 3 "" H 8225 1175 60  0001 C CNN
 	1    8850 1200
 	1    0    0    -1  
 $EndComp
-Text Label 9000 1150 0    50   ~ 0
+Text Label 9450 1150 0    50   ~ 0
 D6
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX5
@@ -644,8 +644,8 @@ Wire Wire Line
 Connection ~ 10150 1500
 Wire Wire Line
 	10150 1500 9700 1500
-Text Label 9450 1150 0    50   ~ 0
-D8
 Text Label 10350 1150 0    50   ~ 0
+D8
+Text Label 9900 1150 0    50   ~ 0
 D5
 $EndSCHEMATC

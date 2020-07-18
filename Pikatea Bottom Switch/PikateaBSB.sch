@@ -648,4 +648,19 @@ Text Label 10350 1150 0    50   ~ 0
 D8
 Text Label 9900 1150 0    50   ~ 0
 D5
+$Comp
+L Switch:SW_DPST SW2
+U 1 1 5F12BE9E
+P 7700 2150
+F 0 "SW2" H 7700 2475 50  0000 C CNN
+F 1 "SW_DPST" H 7700 2384 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7700 2150 50  0001 C CNN
+F 3 "~" H 7700 2150 50  0001 C CNN
+	1    7700 2150
+	1    0    0    -1  
+$EndComp
+Text Label 7900 2050 0    50   ~ 0
+RESET
+Text Label 7500 2050 2    50   ~ 0
+GND
 $EndSCHEMATC

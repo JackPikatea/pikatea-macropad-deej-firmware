@@ -1,0 +1,16 @@
+Source:,,,,,,,
+Date:,7/14/2020 4:01:58 PM,,,,,,
+Tool:,Eeschema (5.1.5)-3,,,,,,
+Component Count:,20,,,,,,
+Ref,Value,Footprint,Manufacturer,Manufacturer Part Number,Vendor,LCSC,Digikey
+C1,100nF,Capacitor_SMD:C_0805_2012Metric,YAGEO ,CC0805KRX7R9BB104 ,,C49678 ,
+C2,100nF,Capacitor_SMD:C_0805_2012Metric,YAGEO ,CC0805KRX7R9BB104 ,,C49678 ,
+C3,10uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics ,CL21A106KAYNNNE ,,C15850 ,
+C4,100nF,Capacitor_SMD:C_0805_2012Metric,YAGEO ,CC0805KRX7R9BB104 ,,C49678 ,
+R1,3.3K,Resistor_SMD:R_0805_2012Metric,Uniroyal Elec ,0805W8F3301T5E ,,C26010 ,
+R2,3.3K,Resistor_SMD:R_0805_2012Metric,Uniroyal Elec ,0805W8F3301T5E ,,C26010 ,
+R3,3.3K,Resistor_SMD:R_0805_2012Metric,Uniroyal Elec ,0805W8F3301T5E ,,C26010 ,
+R4,3.3K,Resistor_SMD:R_0805_2012Metric,Uniroyal Elec ,0805W8F3301T5E ,,C26010 ,
+U1,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,Advanced Monolithic Systems ,AMS1117-3.3 ,,C6186 ,
+U2,"74LVC125APW,118",Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm,Nexperia USA Inc. ,"74LVC125APW,118 ",,,1727-3092-2-ND 
+XS1,SD_ebay-uSD-push_push_SMD,Sd-Card:Conn_uSDcard,,TFP09-2-12B ,,,
