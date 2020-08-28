@@ -1,0 +1,20 @@
+Source:,,,,,,
+Date:,8/27/2020 6:38:08 PM,,,,,
+Tool:,Eeschema (5.1.6)-1,,,,,
+Component Count:,20,,,,,
+Ref,Value,Footprint,Manufacturer,Manufacturer Part Number,Digikey part number,Description
+C1,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+C2,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+C3,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+C4,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+C5,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+C6,4.7uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21A475KPFNNNF,CL21A475KPFNNNF-ND,4.7µF ±10% 10V Ceramic Capacitor X5R 0805 (2012 Metric)
+C7,22pF,Capacitor_SMD:C_0805_2012Metric,KEMET,C0805C220J5GACTU,399-1113-2-ND,"22pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)"
+C8,22pF,Capacitor_SMD:C_0805_2012Metric,KEMET,C0805C220J5GACTU,399-1113-2-ND,"22pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)"
+C9,1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B105KPFNNNG,CL21B105KPFNNNG-ND,1µF ±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)
+C10,0.1uF,Capacitor_SMD:C_0805_2012Metric,Samsung Electro-Mechanics,CL21B104KACNFNC,1276-2442-2-ND,0.1µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+R3,10k,Resistor_SMD:R_0805_2012Metric,Yageo,RC0805FR-0710KL,311-10.0KCRTR-ND,"10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805"
+R4,22,Resistor_SMD:R_0805_2012Metric,TE Connectivity Passive Product,CRG0805F22R,A126352TR-ND,
+R5,22,Resistor_SMD:R_0805_2012Metric,TE Connectivity Passive Product,CRG0805F22R,A126352TR-ND,
+U1,ATmega32U4-AU,Package_QFP:TQFP-44_10x10mm_P0.8mm,Microchip Technology,ATMEGA32U4-AU,ATMEGA32U4-AU-ND,
+X1,16MHz,Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm,Yangxing Tech,X322516MLB4SI,,16MHz ±10ppm 9pF 60?

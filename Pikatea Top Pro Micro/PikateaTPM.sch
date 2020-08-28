@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PikateaTPM-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,10 +42,11 @@ L atmega32u4-ep:ATMEGA32U4-EP U1
 U 1 1 5A28636A
 P 9150 3350
 F 0 "U1" H 8200 5050 50  0000 C CNN
-F 1 "ATmega32U4" H 9850 1850 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 9850 1850 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 9150 3350 50  0001 C CIN
 F 3 "" H 10250 4450 50  0001 C CNN
 F 4 "C44854" H 9150 3350 50  0001 C CNN "LCSC"
+F 5 "" H 9150 3350 50  0001 C CNN "Digikey"
 	1    9150 3350
 	1    0    0    -1  
 $EndComp
@@ -938,35 +938,16 @@ Wire Wire Line
 	6200 900  6000 900 
 Connection ~ 6200 900 
 Connection ~ 6000 900 
-$Comp
-L Connector_Generic:Conn_01x05 J4
-U 1 1 5F025D8D
-P 4350 3900
-F 0 "J4" V 4222 4180 50  0000 L CNN
-F 1 "Conn_01x05" V 4313 4180 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4350 3900 50  0001 C CNN
-F 3 "~" H 4350 3900 50  0001 C CNN
-	1    4350 3900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3800 3500 4150 3500
-Wire Wire Line
-	4150 3500 4150 3700
 Connection ~ 3800 3500
 Wire Wire Line
 	4350 2900 4550 2900
-Wire Wire Line
-	4550 2900 4550 3700
 Connection ~ 4350 2900
-Wire Wire Line
-	4450 3200 4450 3700
 Wire Wire Line
 	3950 3100 4100 3100
 Wire Wire Line
 	3950 3200 4400 3200
-Wire Wire Line
-	4350 3100 4350 3700
 Wire Wire Line
 	4400 3150 4400 3200
 Connection ~ 4400 3200
@@ -1016,4 +997,12 @@ F 3 "" H 5850 4000 50  0001 C CNN
 	1    5850 4000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4150 3500 4150 3700
+Wire Wire Line
+	4550 2900 4550 3700
+Wire Wire Line
+	4450 3200 4450 3700
+Wire Wire Line
+	4350 3100 4350 3700
 $EndSCHEMATC
