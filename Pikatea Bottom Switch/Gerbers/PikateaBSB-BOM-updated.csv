@@ -1,0 +1,8 @@
+Pikatea-DB3,,,,,,,,,,
+Item,Manufacturer,Manufacturer Part Number,Designator,Qty,Description,Package / Case,"SMD ,BGA,LLC(QFN),OR TH",Top/Bottom,X-Ray,Polarity
+1,Yageo,CC0805KRX7R9BB104,"C1, C2, C4",3,"100nF,50V,10%,X7R,0805",805,SMD,T,,
+2,Samsung Electro-Mechanics,CL21A106KAYNNNE,C3,1,"10uF,25V,10%,X5R,0805",805,SMD,T,,
+3,UniOhm(??),0805W8F3301T5E,"R1, R2, R3, R4",4,"3.3K,1%,1/8W,0805",805,SMD,T,,
+4,AMS,AMS1117-3.3,U1,1,"AMS1117-3.3,SOT-223",SOT-223,SMD,T,,Yes
+5,Nxp Semiconductors,"74LVC125APW,118",U2,1,"74LVC125APW,118,14-TSSOP",14-TSSOP,SMD,T,,Yes
+6,Taobao(??/????),PikateaDB2-SD,XS1,1,"Micro SD,14.75mmL*14.50mmW*1.85mmH",14.75mmL*14.50mmW*1.85mmH,TH,,,
