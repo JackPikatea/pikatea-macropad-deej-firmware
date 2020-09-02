@@ -6,3 +6,4 @@ Item,Manufacturer,Manufacturer Part Number,Designator,Qty,Description,Package / 
 4,AMS,AMS1117-3.3,U1,1,"AMS1117-3.3,SOT-223",SOT-223,SMD,T,,Yes
 5,Nxp Semiconductors,"74LVC125APW,118",U2,1,"74LVC125APW,118,14-TSSOP",14-TSSOP,SMD,T,,Yes
 6,Taobao(??/????),PikateaDB2-SD,XS1,1,"Micro SD,14.75mmL*14.50mmW*1.85mmH",14.75mmL*14.50mmW*1.85mmH,TH,,,
+7,HRO,K2-1187SQ-D4SW-06,SW1,1,"SPST-NO,12VDC,50mA,4-SMD",4-SMD,SMD,T,,Yes
