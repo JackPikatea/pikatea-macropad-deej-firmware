@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Library Files")(type KiCad)(uri "${KIPRJMOD}/Library Files")(options "")(descr ""))
+  (lib (name "Pikatea Macropad Encoder Side Mount")(type KiCad)(uri "${KIPRJMOD}/Library Files/Pikatea Macropad Encoder Side Mount.pretty")(options "")(descr ""))
+)
