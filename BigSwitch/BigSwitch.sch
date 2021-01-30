@@ -1,0 +1,175 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 6011A6B2
+P 5700 3250
+F 0 "J1" H 5808 3631 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5808 3540 50  0000 C CNN
+F 2 "Pikatea:SDcardModule-BottomSideDown" H 5700 3250 50  0001 C CNN
+F 3 "~" H 5700 3250 50  0001 C CNN
+	1    5700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L promicro:ProMicro U1
+U 1 1 6011CDE2
+P 8150 3200
+F 0 "U1" H 8150 4237 60  0000 C CNN
+F 1 "ProMicro" H 8150 4131 60  0000 C CNN
+F 2 "promicro:ProMicro" H 8250 2150 60  0001 C CNN
+F 3 "" H 8250 2150 60  0000 C CNN
+	1    8150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6011DFBE
+P 5900 3050
+F 0 "#PWR0101" H 5900 2800 50  0001 C CNN
+F 1 "GND" V 5905 2922 50  0000 R CNN
+F 2 "" H 5900 3050 50  0001 C CNN
+F 3 "" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 6011E856
+P 5900 3150
+F 0 "#PWR0102" H 5900 3000 50  0001 C CNN
+F 1 "VCC" V 5915 3278 50  0000 L CNN
+F 2 "" H 5900 3150 50  0001 C CNN
+F 3 "" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	0    1    1    0   
+$EndComp
+Text Label 5900 3250 0    50   ~ 0
+MISO
+Text Label 5900 3350 0    50   ~ 0
+MOSI
+Text Label 5900 3450 0    50   ~ 0
+SCK
+Text Label 5900 3550 0    50   ~ 0
+CS
+$Comp
+L power:GND #PWR0103
+U 1 1 6011F380
+P 7450 2650
+F 0 "#PWR0103" H 7450 2400 50  0001 C CNN
+F 1 "GND" V 7455 2522 50  0000 R CNN
+F 2 "" H 7450 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6011FD61
+P 7450 2750
+F 0 "#PWR0104" H 7450 2500 50  0001 C CNN
+F 1 "GND" V 7455 2622 50  0000 R CNN
+F 2 "" H 7450 2750 50  0001 C CNN
+F 3 "" H 7450 2750 50  0001 C CNN
+	1    7450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6011FF18
+P 8850 2550
+F 0 "#PWR0105" H 8850 2300 50  0001 C CNN
+F 1 "GND" V 8855 2422 50  0000 R CNN
+F 2 "" H 8850 2550 50  0001 C CNN
+F 3 "" H 8850 2550 50  0001 C CNN
+	1    8850 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 601206B2
+P 8850 2650
+F 0 "#PWR0106" H 8850 2500 50  0001 C CNN
+F 1 "VCC" V 8865 2778 50  0000 L CNN
+F 2 "" H 8850 2650 50  0001 C CNN
+F 3 "" H 8850 2650 50  0001 C CNN
+	1    8850 2650
+	0    1    1    0   
+$EndComp
+Text Label 8850 3450 0    50   ~ 0
+MOSI
+Text Label 8850 3350 0    50   ~ 0
+MISO
+Text Label 8850 3250 0    50   ~ 0
+SCK
+Text Label 8850 3150 0    50   ~ 0
+A0
+Text Label 7450 3550 2    50   ~ 0
+D9
+Text Label 7450 3450 2    50   ~ 0
+D8
+Text Label 7450 3350 2    50   ~ 0
+D7
+Text Label 8850 3550 0    50   ~ 0
+CS
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6011AADF
+P 9600 1850
+F 0 "MX1" H 9633 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 9633 1999 20  0000 C CNN
+F 2 "Pikatea:BigSwitch" H 8975 1825 60  0001 C CNN
+F 3 "" H 8975 1825 60  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Text Label 7450 3250 2    50   ~ 0
+D6
+Text Label 7450 3150 2    50   ~ 0
+D5
+Text Label 9750 1800 0    50   ~ 0
+D7
+$Comp
+L Connector:Conn_01x05_Female J2
+U 1 1 6011BC57
+P 10250 1800
+F 0 "J2" H 10278 1826 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 10278 1735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10250 1800 50  0001 C CNN
+F 3 "~" H 10250 1800 50  0001 C CNN
+	1    10250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2000 9850 2000
+Wire Wire Line
+	9850 2000 9850 2150
+Wire Wire Line
+	9850 2150 10000 2150
+Connection ~ 9850 2000
+Wire Wire Line
+	9850 2000 10050 2000
+Text Label 10000 2150 0    50   ~ 0
+A0
+Text Label 10050 1900 2    50   ~ 0
+D5
+Text Label 10050 1800 2    50   ~ 0
+D9
+Text Label 10050 1700 2    50   ~ 0
+D8
+Text Label 10050 1600 2    50   ~ 0
+D6
+$EndSCHEMATC
