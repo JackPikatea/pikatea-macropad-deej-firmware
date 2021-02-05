@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*%
+%TF.CreationDate,2021-02-04T13:42:59-06:00*%
+%TF.ProjectId,Pikatea SD card Module,50696b61-7465-4612-9053-442063617264,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2021-02-04 13:42:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10O,1.800000X1.800000*%
+%ADD11R,1.800000X1.800000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J2*%
+X210500000Y-76420000D03*
+X210500000Y-78960000D03*
+D11*
+X210500000Y-81500000D03*
+%TD*%
+D10*
+%TO.C,J1*%
+X190500000Y-76420000D03*
+X190500000Y-78960000D03*
+D11*
+X190500000Y-81500000D03*
+%TD*%
+M02*

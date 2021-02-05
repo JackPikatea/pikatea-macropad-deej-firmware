@@ -1007,7 +1007,7 @@ F 3 "~" H 5200 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6500 2100 7250 2100
+	6500 2100 6900 2100
 Text Label 6500 1900 0    50   ~ 0
 D0
 Text Label 6500 2000 0    50   ~ 0
@@ -1078,6 +1078,42 @@ F 1 "Conn_01x03_Male" H 6408 2190 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6300 2000 50  0001 C CNN
 F 3 "~" H 6300 2000 50  0001 C CNN
 	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 601F09E4
+P 6700 2000
+F 0 "J5" H 6808 2281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6808 2190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 2000 50  0001 C CNN
+F 3 "~" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 2100
+Wire Wire Line
+	6900 2100 7250 2100
+Text Label 6900 1900 0    50   ~ 0
+D8
+Text Label 6900 2000 0    50   ~ 0
+D6
+Text Label 5750 1900 0    50   ~ 0
+D8
+Text Label 5750 2000 0    50   ~ 0
+D6
+Wire Wire Line
+	5750 2100 6500 2100
+Connection ~ 6500 2100
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 601C442B
+P 5550 1900
+F 0 "J?" H 5658 2181 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5658 2090 50  0000 C CNN
+F 2 "" H 5550 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

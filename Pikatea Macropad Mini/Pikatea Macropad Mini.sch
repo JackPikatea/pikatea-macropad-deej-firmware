@@ -1098,4 +1098,33 @@ Text Label 6900 1900 0    50   ~ 0
 D8
 Text Label 6900 2000 0    50   ~ 0
 D6
+Text Label 5750 1900 0    50   ~ 0
+D8
+Text Label 5750 2000 0    50   ~ 0
+D6
+Wire Wire Line
+	5750 2100 6500 2100
+Connection ~ 6500 2100
+$Comp
+L Connector:Conn_01x04_Male J6
+U 1 1 601C442B
+P 5550 1900
+F 0 "J6" H 5658 2181 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5658 2090 50  0000 C CNN
+F 2 "Pikatea Macropad Encoder Side Mount:Breakaway-Throughole" H 5550 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601CF47F
+P 5750 1800
+F 0 "#PWR?" H 5750 1550 50  0001 C CNN
+F 1 "GND" V 5755 1672 50  0000 R CNN
+F 2 "" H 5750 1800 50  0001 C CNN
+F 3 "" H 5750 1800 50  0001 C CNN
+	1    5750 1800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
