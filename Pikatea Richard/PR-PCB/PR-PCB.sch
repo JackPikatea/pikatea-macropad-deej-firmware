@@ -90,4 +90,81 @@ F 3 "~" H 3150 3460 50  0001 C CNN
 	1    3150 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L promicro:ProMicro U1
+U 1 1 60242502
+P 4750 4050
+F 0 "U1" H 4750 5087 60  0000 C CNN
+F 1 "ProMicro" H 4750 4981 60  0000 C CNN
+F 2 "promicro:ProMicro" H 4850 3000 60  0001 C CNN
+F 3 "" H 4850 3000 60  0000 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2350 4550 2750
+Wire Wire Line
+	4550 2750 4950 2750
+Wire Wire Line
+	4950 2750 4950 2350
+Wire Wire Line
+	4950 2750 5350 2750
+Wire Wire Line
+	5350 2750 5350 2350
+Connection ~ 4950 2750
+Wire Wire Line
+	5350 2750 5750 2750
+Wire Wire Line
+	5750 2750 5750 2350
+Connection ~ 5350 2750
+Wire Wire Line
+	5750 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 2350
+Connection ~ 5750 2750
+Wire Wire Line
+	6150 2750 6150 4000
+Wire Wire Line
+	6150 4000 5450 4000
+Connection ~ 6150 2750
+Wire Wire Line
+	4350 2550 4350 3050
+Wire Wire Line
+	4350 3050 3900 3050
+Wire Wire Line
+	3900 3050 3900 4400
+Wire Wire Line
+	3900 4400 4050 4400
+Wire Wire Line
+	4050 4300 3950 4300
+Wire Wire Line
+	3950 4300 3950 3100
+Wire Wire Line
+	3950 3100 4750 3100
+Wire Wire Line
+	4750 3100 4750 2550
+Wire Wire Line
+	4050 4200 3650 4200
+Wire Wire Line
+	3650 4200 3650 2950
+Wire Wire Line
+	3650 2950 5150 2950
+Wire Wire Line
+	5150 2950 5150 2550
+Wire Wire Line
+	4050 4100 3750 4100
+Wire Wire Line
+	3750 4100 3750 3000
+Wire Wire Line
+	3750 3000 5550 3000
+Wire Wire Line
+	5550 3000 5550 2550
+Wire Wire Line
+	5950 2550 5950 2900
+Wire Wire Line
+	5950 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 4000
+Wire Wire Line
+	3800 4000 4050 4000
 $EndSCHEMATC
