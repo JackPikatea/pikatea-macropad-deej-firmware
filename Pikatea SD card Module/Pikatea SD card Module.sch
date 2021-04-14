@@ -360,4 +360,6 @@ Text GLabel 7800 3550 2    50   Input ~ 0
 MOSI
 Text GLabel 7800 3450 2    50   Input ~ 0
 SCK
+Text GLabel 7800 4150 2    50   Input ~ 0
+MISO
 $EndSCHEMATC

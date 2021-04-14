@@ -790,4 +790,56 @@ F 3 "" H 10350 3000 50  0001 L BNN
 	1    10350 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 60614122
+P 3050 1750
+F 0 "J3" H 3158 2031 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3158 1940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3050 1750 50  0001 C CNN
+F 3 "~" H 3050 1750 50  0001 C CNN
+	1    3050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 606149C4
+P 3950 1750
+F 0 "J7" H 4058 2031 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4058 1940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3950 1750 50  0001 C CNN
+F 3 "~" H 3950 1750 50  0001 C CNN
+	1    3950 1750
+	1    0    0    -1  
+$EndComp
+Text Label 3250 1650 0    50   ~ 0
+SCK
+Text Label 3250 1750 0    50   ~ 0
+MOSI
+Text Label 3250 1850 0    50   ~ 0
+CS
+Text Label 4150 1750 0    50   ~ 0
+MISO
+$Comp
+L power:GND #PWR0102
+U 1 1 6061DB34
+P 4150 1650
+F 0 "#PWR0102" H 4150 1400 50  0001 C CNN
+F 1 "GND" H 4155 1477 50  0000 C CNN
+F 2 "" H 4150 1650 50  0001 C CNN
+F 3 "" H 4150 1650 50  0001 C CNN
+	1    4150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 606210F2
+P 4150 1850
+F 0 "#PWR0114" H 4150 1700 50  0001 C CNN
+F 1 "VCC" V 4165 1978 50  0000 L CNN
+F 2 "" H 4150 1850 50  0001 C CNN
+F 3 "" H 4150 1850 50  0001 C CNN
+	1    4150 1850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
