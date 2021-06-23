@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 6011CDE2
+P 8150 3200
+F 0 "U1" H 8150 4237 60  0000 C CNN
+F 1 "ProMicro" H 8150 4131 60  0000 C CNN
+F 2 "promicro:ProMicro" H 8250 2150 60  0001 C CNN
+F 3 "" H 8250 2150 60  0000 C CNN
+	1    8150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6011F380
+P 7450 2650
+F 0 "#PWR0103" H 7450 2400 50  0001 C CNN
+F 1 "GND" V 7455 2522 50  0000 R CNN
+F 2 "" H 7450 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6011FD61
+P 7450 2750
+F 0 "#PWR0104" H 7450 2500 50  0001 C CNN
+F 1 "GND" V 7455 2622 50  0000 R CNN
+F 2 "" H 7450 2750 50  0001 C CNN
+F 3 "" H 7450 2750 50  0001 C CNN
+	1    7450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 601206B2
+P 8850 2650
+F 0 "#PWR0106" H 8850 2500 50  0001 C CNN
+F 1 "VCC" V 8865 2778 50  0000 L CNN
+F 2 "" H 8850 2650 50  0001 C CNN
+F 3 "" H 8850 2650 50  0001 C CNN
+	1    8850 2650
+	0    1    1    0   
+$EndComp
+Text Label 8850 3450 0    50   ~ 0
+MOSI
+Text Label 8850 3350 0    50   ~ 0
+MISO
+Text Label 8850 3250 0    50   ~ 0
+SCK
+Text Label 8850 3150 0    50   ~ 0
+A0
+Text Label 7450 3550 2    50   ~ 0
+D9
+Text Label 7450 3450 2    50   ~ 0
+D8
+Text Label 7450 3350 2    50   ~ 0
+D7
+Text Label 8850 3550 0    50   ~ 0
+CS
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6011AADF
+P 9600 1850
+F 0 "MX1" H 9633 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 9633 1999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8975 1825 60  0001 C CNN
+F 3 "" H 8975 1825 60  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Text Label 7450 3250 2    50   ~ 0
+D6
+Text Label 7450 3150 2    50   ~ 0
+D5
+Text Label 8300 1650 0    50   ~ 0
+D7
+Wire Wire Line
+	9550 2000 9850 2000
+Wire Wire Line
+	9850 2000 9850 2150
+Connection ~ 9850 2000
+Wire Wire Line
+	9850 2000 10050 2000
+Text Label 8800 1700 2    50   ~ 0
+D5
+Text Label 9250 1750 2    50   ~ 0
+D9
+Text Label 9750 1800 2    50   ~ 0
+D6
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 60D255C7
+P 9100 1800
+F 0 "MX4" H 9133 2023 60  0000 C CNN
+F 1 "MX-NoLED" H 9133 1949 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8475 1775 60  0001 C CNN
+F 3 "" H 8475 1775 60  0001 C CNN
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 60D259D3
+P 8650 1750
+F 0 "MX3" H 8683 1973 60  0000 C CNN
+F 1 "MX-NoLED" H 8683 1899 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8025 1725 60  0001 C CNN
+F 3 "" H 8025 1725 60  0001 C CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60D25F01
+P 8150 1700
+F 0 "MX2" H 8183 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 8183 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 7525 1675 60  0001 C CNN
+F 3 "" H 7525 1675 60  0001 C CNN
+	1    8150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2000 9050 2000
+Wire Wire Line
+	9050 2000 9050 1950
+Connection ~ 9550 2000
+Wire Wire Line
+	9050 1950 8600 1950
+Wire Wire Line
+	8600 1950 8600 1900
+Connection ~ 9050 1950
+Wire Wire Line
+	8600 1900 8100 1900
+Wire Wire Line
+	8100 1900 8100 1850
+Connection ~ 8600 1900
+Text Label 7450 3050 2    50   ~ 0
+D4
+Text Label 10050 2000 2    50   ~ 0
+D4
+$EndSCHEMATC
