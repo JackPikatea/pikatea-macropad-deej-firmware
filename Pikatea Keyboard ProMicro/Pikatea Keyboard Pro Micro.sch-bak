@@ -2362,60 +2362,24 @@ $EndComp
 Connection ~ 6800 4750
 Wire Wire Line
 	6800 4750 7300 4750
-$Comp
-L promicro:ProMicro U1
-U 1 1 60D562CA
-P 2800 6900
-F 0 "U1" H 2800 7937 60  0000 C CNN
-F 1 "ProMicro" H 2800 7831 60  0000 C CNN
-F 2 "" H 2900 5850 60  0001 C CNN
-F 3 "" H 2900 5850 60  0000 C CNN
-	1    2800 6900
-	1    0    0    -1  
-$EndComp
-Text GLabel 3500 6550 2    50   Input ~ 0
-Row1
-Text GLabel 3500 6650 2    50   Input ~ 0
-Row2
-Text GLabel 3500 6750 2    50   Input ~ 0
-Row3
-Text GLabel 3500 6850 2    50   Input ~ 0
-Row4
-Text GLabel 3500 6950 2    50   Input ~ 0
-Row5
 Text GLabel 8400 3750 2    50   Input ~ 0
 Col1
-Text GLabel 3500 7050 2    50   Input ~ 0
-Col1
-Text GLabel 3500 7150 2    50   Input ~ 0
-COL2
-Text GLabel 3500 7250 2    50   Input ~ 0
-Col3
-Text GLabel 2100 7250 0    50   Input ~ 0
-Col4
-Text GLabel 2100 7150 0    50   Input ~ 0
-Col5
-Text GLabel 2100 7050 0    50   Input ~ 0
-Col6
-Text GLabel 2100 6950 0    50   Input ~ 0
-Col7
-Text GLabel 2100 6850 0    50   Input ~ 0
-Col8
-Text GLabel 2100 6750 0    50   Input ~ 0
-Col9
-Text GLabel 2100 6650 0    50   Input ~ 0
-Col10
-Text GLabel 2100 6550 0    50   Input ~ 0
-Col11
-Text GLabel 2100 6250 0    50   Input ~ 0
-Col12
-Text GLabel 2100 6150 0    50   Input ~ 0
-Col13
 $Comp
 L teensy:Teensy2.0_(Arduino) U2
 U 1 1 60EE9756
 P 4750 6600
 F 0 "U2" H 4750 7637 60  0000 C CNN
+F 1 "Teensy2.0_(Arduino)" H 4750 7531 60  0000 C CNN
+F 2 "teensy:Teensy2.0" H 4850 5550 60  0001 C CNN
+F 3 "" H 4850 5550 60  0000 C CNN
+	1    4750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L teensy:Teensy2.0_(Arduino) U?
+U 1 1 60F49BE0
+P 4750 6600
+F 0 "U?" H 4750 7637 60  0000 C CNN
 F 1 "Teensy2.0_(Arduino)" H 4750 7531 60  0000 C CNN
 F 2 "teensy:Teensy2.0" H 4850 5550 60  0001 C CNN
 F 3 "" H 4850 5550 60  0000 C CNN

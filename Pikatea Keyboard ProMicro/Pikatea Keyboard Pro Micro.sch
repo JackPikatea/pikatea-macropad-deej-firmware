@@ -2376,14 +2376,60 @@ F 3 "" H 4850 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L teensy:Teensy2.0_(Arduino) U?
+L teensy:Teensy2.0_(Arduino) U1
 U 1 1 60F49BE0
 P 4750 6600
-F 0 "U?" H 4750 7637 60  0000 C CNN
+F 0 "U1" H 4750 7637 60  0000 C CNN
 F 1 "Teensy2.0_(Arduino)" H 4750 7531 60  0000 C CNN
 F 2 "teensy:Teensy2.0" H 4850 5550 60  0001 C CNN
 F 3 "" H 4850 5550 60  0000 C CNN
 	1    4750 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 4050 5950 0    50   Input ~ 0
+Row1
+Text Label 4050 6250 2    50   ~ 0
+D3
+Text Label 4050 6350 2    50   ~ 0
+D4
+Text GLabel 4050 6050 0    50   Input ~ 0
+Row2
+Text GLabel 4050 6150 0    50   Input ~ 0
+Row3
+Text GLabel 4050 6450 0    50   Input ~ 0
+Row4
+Text GLabel 4050 6550 0    50   Input ~ 0
+Row5
+Text GLabel 4050 6650 0    50   Input ~ 0
+Col1
+Text GLabel 4050 6750 0    50   Input ~ 0
+COL2
+Text GLabel 4050 6850 0    50   Input ~ 0
+Col3
+Text GLabel 4050 6950 0    50   Input ~ 0
+Col4
+Text GLabel 4050 7050 0    50   Input ~ 0
+Col5
+Text GLabel 5450 6050 2    50   Input ~ 0
+Col6
+Text GLabel 5450 6250 2    50   Input ~ 0
+Col7
+Text GLabel 5450 6350 2    50   Input ~ 0
+Col8
+Text GLabel 5450 6450 2    50   Input ~ 0
+Col9
+Text GLabel 5450 6550 2    50   Input ~ 0
+Col10
+Text GLabel 5450 6650 2    50   Input ~ 0
+Col11
+Text GLabel 5450 6750 2    50   Input ~ 0
+Col12
+Text GLabel 5450 6850 2    50   Input ~ 0
+Col13
+Text GLabel 5450 6950 2    50   Input ~ 0
+Col14
+Text GLabel 5450 7050 2    50   Input ~ 0
+Col15
+Text GLabel 5450 7150 2    50   Input ~ 0
+Col16
 $EndSCHEMATC
