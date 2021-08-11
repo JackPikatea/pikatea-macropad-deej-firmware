@@ -11,8 +11,8 @@ const int EncoderPin1 = 3;
 Encoder myEnc(EncoderPin0, EncoderPin1);
 
 //The 5 buttons
-//GB3
-const int ButtonPins[] = {7, 5, 9, 8, 6};
+//GB3 - 5 keys
+const int ButtonPins[] = {6, 8, 7, 9, 5};
 //GB2
 //const int ButtonPins[] = {7, 5, 9, 8, 6};
 //GB1
@@ -31,7 +31,7 @@ Bounce buttonDebouncers[] = {Bounce(), Bounce(), Bounce(), Bounce(), Bounce(), B
 boolean DeejMode = true;
 int encoderConstant = 3;
 int deejSensitivityConstant = 32;
-String buttonStrings[] = {"", "", "", "", "", "", "", "", "", "", ""};
+String buttonStrings[] = {"", "", "", "", "", "", "", "", "", "", "", "", ""};
 String knobStrings[] = {"", ""};
 
 
@@ -54,6 +54,10 @@ void setup() {
   buttonStrings[3] = F("PlayPause");
   // Button 5
   buttonStrings[4] = F("Next");
+  // Button 6
+  buttonStrings[5] = F("Next");
+  //Button 7
+  buttonStrings[6] = F("Next");
   // Knob Button
   buttonStrings[10] = F("Mute");
   
@@ -80,17 +84,6 @@ void setup() {
   buttonDebouncers[5].interval(25);
   Keyboard.begin();
   Mouse.begin();
-
-  //Button 1 hold
-  buttonStrings[5] = F("");
-  //Button 2 hold
-  buttonStrings[6] = F("");
-  //Button 3 hold
-  buttonStrings[7] = F("");
-  //Button 4 hold
-  buttonStrings[8] = F("");
-  //Button 5 hold
-  buttonStrings[9] = "";
 }
 
 unsigned long previousMillis = 0;
