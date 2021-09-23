@@ -24,6 +24,7 @@ const int knobButton = 2;
 //Common ground pin for buttons
 const int ButtonPinsPulldown = A0;
 
+//starting values for deej sliders (these can be changed from 0 to 1023)
 int fakeAnalogSliderValues[] = {1023, 1023, 1023, 1023, 1023, 1023};
 Bounce buttonDebouncers[] = {Bounce(), Bounce(), Bounce(), Bounce(), Bounce(), Bounce()};
 
