@@ -5,4 +5,6 @@
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/Library Files/MX_Alps_Hybrid-master/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name TC2030-CTX)(type Legacy)(uri "${KIPRJMOD}/Library Files/TC2030-CTX/TC2030-CTX.lib")(options "")(descr ""))
   (lib (name Type-C)(type Legacy)(uri "C:/Users/jackr/Documents/KiCad/PikateaPCB/Pikatea Library/Type-C.pretty-master/Type-C.pretty-master/Type-C.lib")(options "")(descr ""))
+  (lib (name usb-type-c)(type Legacy)(uri "${KIPRJMOD}/Library Files/MMCProMicro-master/usb-type-c.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri "${KIPRJMOD}/Library Files/ProMicroKiCad-master/promicro_library/promicro.lib")(options "")(descr ""))
 )

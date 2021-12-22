@@ -8,4 +8,5 @@
   (lib (name MX_Only)(type KiCad)(uri "${KIPRJMOD}/Library Files/MX_Alps_Hybrid-master/MX_Only.pretty")(options "")(descr ""))
   (lib (name TC2030-CTX)(type KiCad)(uri "${KIPRJMOD}/Library Files/TC2030-CTX")(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri "C:/Users/jackr/Documents/KiCad/PikateaPCB/Pikatea Library/Type-C.pretty-master/Type-C.pretty-master")(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri "${KIPRJMOD}/Library Files/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
 )
