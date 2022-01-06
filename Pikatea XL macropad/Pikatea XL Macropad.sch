@@ -125,7 +125,7 @@ U 1 1 60879B61
 P 7250 1250
 F 0 "D1" V 7204 1330 50  0000 L CNN
 F 1 "1N4148W" V 7295 1330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7250 1075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 7250 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7250 1250 50  0001 C CNN
 	1    7250 1250
 	0    1    1    0   
@@ -136,7 +136,7 @@ U 1 1 6087BA27
 P 7700 1250
 F 0 "D3" V 7654 1330 50  0000 L CNN
 F 1 "1N4148W" V 7745 1330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7700 1075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 7700 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 1250 50  0001 C CNN
 	1    7700 1250
 	0    1    1    0   
@@ -147,7 +147,7 @@ U 1 1 6087BFE3
 P 8150 1250
 F 0 "D5" V 8104 1330 50  0000 L CNN
 F 1 "1N4148W" V 8195 1330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 8150 1075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 8150 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8150 1250 50  0001 C CNN
 	1    8150 1250
 	0    1    1    0   
@@ -158,7 +158,7 @@ U 1 1 6087C58C
 P 8600 1250
 F 0 "D7" V 8554 1330 50  0000 L CNN
 F 1 "1N4148W" V 8645 1330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 8600 1075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 8600 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 1250 50  0001 C CNN
 	1    8600 1250
 	0    1    1    0   
@@ -169,7 +169,7 @@ U 1 1 6087CBDB
 P 9350 1250
 F 0 "D9" V 9304 1330 50  0000 L CNN
 F 1 "1N4148W" V 9395 1330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 9350 1075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 9350 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9350 1250 50  0001 C CNN
 	1    9350 1250
 	0    1    1    0   
@@ -194,7 +194,7 @@ U 1 1 60886E3F
 P 7250 2250
 F 0 "D2" V 7204 2330 50  0000 L CNN
 F 1 "1N4148W" V 7295 2330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7250 2075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 7250 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7250 2250 50  0001 C CNN
 	1    7250 2250
 	0    1    1    0   
@@ -205,7 +205,7 @@ U 1 1 6088752E
 P 7700 2250
 F 0 "D4" V 7654 2330 50  0000 L CNN
 F 1 "1N4148W" V 7745 2330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7700 2075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 7700 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2250 50  0001 C CNN
 	1    7700 2250
 	0    1    1    0   
@@ -216,7 +216,7 @@ U 1 1 60888772
 P 8150 2250
 F 0 "D6" V 8104 2330 50  0000 L CNN
 F 1 "1N4148W" V 8195 2330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 8150 2075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 8150 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8150 2250 50  0001 C CNN
 	1    8150 2250
 	0    1    1    0   
@@ -227,7 +227,7 @@ U 1 1 60888E54
 P 8600 2250
 F 0 "D8" V 8554 2330 50  0000 L CNN
 F 1 "1N4148W" V 8645 2330 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 8600 2075 50  0001 C CNN
+F 2 "keyboard_parts:D_axial" H 8600 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 2250 50  0001 C CNN
 	1    8600 2250
 	0    1    1    0   
@@ -274,12 +274,12 @@ A3
 $Comp
 L Connector:Conn_01x12_Female J1
 U 1 1 61C5A4E4
-P 6050 3300
-F 0 "J1" H 6078 3276 50  0000 L CNN
-F 1 "Conn_01x12_Female" H 6078 3185 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6050 3300 50  0001 C CNN
-F 3 "~" H 6050 3300 50  0001 C CNN
-	1    6050 3300
+P 6850 3450
+F 0 "J1" H 6878 3426 50  0000 L CNN
+F 1 "Conn_01x12_Female" H 6878 3335 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6850 3450 50  0001 C CNN
+F 3 "~" H 6850 3450 50  0001 C CNN
+	1    6850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -293,4 +293,50 @@ F 3 "" H 7450 2650 60  0000 C CNN
 	1    7350 3700
 	1    0    0    -1  
 $EndComp
+Text Label 6650 4050 2    50   ~ 0
+A4
+Text Label 6650 3950 2    50   ~ 0
+A0
+Text Label 6650 3850 2    50   ~ 0
+A3
+Text Label 6650 3750 2    50   ~ 0
+D9
+Text Label 6650 3650 2    50   ~ 0
+D7
+Text Label 6650 3550 2    50   ~ 0
+A
+Text Label 6650 3450 2    50   ~ 0
+B
+Text Label 10600 1100 0    50   ~ 0
+A
+Text Label 10600 900  0    50   ~ 0
+B
+Text Label 10000 900  2    50   ~ 0
+A10
+Text Label 6650 2950 2    50   ~ 0
+A10
+$Comp
+L power:GND #PWR?
+U 1 1 61DC9E71
+P 6650 3250
+F 0 "#PWR?" H 6650 3000 50  0001 C CNN
+F 1 "GND" V 6655 3122 50  0000 R CNN
+F 2 "" H 6650 3250 50  0001 C CNN
+F 3 "" H 6650 3250 50  0001 C CNN
+	1    6650 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 6650 3250
+$Comp
+L power:GND #PWR?
+U 1 1 61DCA30D
+P 6650 3150
+F 0 "#PWR?" H 6650 2900 50  0001 C CNN
+F 1 "GND" V 6655 3022 50  0000 R CNN
+F 2 "" H 6650 3150 50  0001 C CNN
+F 3 "" H 6650 3150 50  0001 C CNN
+	1    6650 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 6650 3150
 $EndSCHEMATC
