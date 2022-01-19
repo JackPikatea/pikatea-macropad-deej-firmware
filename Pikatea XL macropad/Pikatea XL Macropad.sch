@@ -16,17 +16,6 @@ $EndDescr
 Text Label 6900 2400 0    50   ~ 0
 A0
 $Comp
-L MX_Alps_Hybrid:MX-LED MX4
-U 1 1 605EA2A5
-P 8650 1950
-F 0 "MX4" H 8732 2174 60  0000 C CNN
-F 1 "MX-LED" H 8732 2100 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8025 1925 60  0001 C CNN
-F 3 "" H 8025 1925 60  0001 C CNN
-	1    8650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-LED MX3
 U 1 1 605E9C8D
 P 8200 1950
@@ -128,7 +117,7 @@ F 1 "1N4148W" V 7295 1330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 7250 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7250 1250 50  0001 C CNN
 	1    7250 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D3
@@ -139,7 +128,7 @@ F 1 "1N4148W" V 7745 1330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 7700 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 1250 50  0001 C CNN
 	1    7700 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D5
@@ -150,7 +139,7 @@ F 1 "1N4148W" V 8195 1330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 8150 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8150 1250 50  0001 C CNN
 	1    8150 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D7
@@ -161,7 +150,7 @@ F 1 "1N4148W" V 8645 1330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 8600 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 1250 50  0001 C CNN
 	1    8600 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D9
@@ -172,22 +161,9 @@ F 1 "1N4148W" V 9395 1330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 9350 1075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9350 1250 50  0001 C CNN
 	1    9350 1250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9350 1400 8600 1400
-Wire Wire Line
-	8150 1400 7700 1400
-Wire Wire Line
-	7250 1400 7700 1400
 Connection ~ 7700 1400
-Wire Wire Line
-	6900 1400 7250 1400
-Connection ~ 7250 1400
-Connection ~ 8600 1400
-Connection ~ 8150 1400
-Wire Wire Line
-	8150 1400 8600 1400
 $Comp
 L Diode:1N4148W D2
 U 1 1 60886E3F
@@ -197,7 +173,7 @@ F 1 "1N4148W" V 7295 2330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 7250 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7250 2250 50  0001 C CNN
 	1    7250 2250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D4
@@ -208,7 +184,7 @@ F 1 "1N4148W" V 7745 2330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 7700 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7700 2250 50  0001 C CNN
 	1    7700 2250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D6
@@ -219,7 +195,7 @@ F 1 "1N4148W" V 8195 2330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 8150 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8150 2250 50  0001 C CNN
 	1    8150 2250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148W D8
@@ -230,19 +206,8 @@ F 1 "1N4148W" V 8645 2330 50  0000 L CNN
 F 2 "keyboard_parts:D_axial" H 8600 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8600 2250 50  0001 C CNN
 	1    8600 2250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6900 2400 7250 2400
-Connection ~ 7250 2400
-Wire Wire Line
-	7250 2400 7700 2400
-Connection ~ 7700 2400
-Wire Wire Line
-	7700 2400 8150 2400
-Connection ~ 8150 2400
-Wire Wire Line
-	8150 2400 8600 2400
 $Comp
 L Device:Rotary_Encoder_Switch SW3
 U 1 1 608ADF4F
@@ -341,4 +306,39 @@ Text Label 6650 3350 2    50   ~ 0
 D8
 Text Label 6650 2950 2    50   ~ 0
 A10
+Connection ~ 8600 1400
+Wire Wire Line
+	8600 1400 9350 1400
+Wire Wire Line
+	7700 1400 8150 1400
+Connection ~ 8150 1400
+Wire Wire Line
+	8150 1400 8600 1400
+Wire Wire Line
+	6900 1400 7250 1400
+Connection ~ 7250 1400
+Wire Wire Line
+	7250 1400 7700 1400
+Wire Wire Line
+	6900 2400 7250 2400
+Connection ~ 7250 2400
+Wire Wire Line
+	7250 2400 7700 2400
+Connection ~ 7700 2400
+Wire Wire Line
+	7700 2400 8150 2400
+Connection ~ 8150 2400
+Wire Wire Line
+	8150 2400 8600 2400
+$Comp
+L MX_Alps_Hybrid:MX-LED MX4
+U 1 1 605EA2A5
+P 8650 1950
+F 0 "MX4" H 8732 2174 60  0000 C CNN
+F 1 "MX-LED" H 8732 2100 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8025 1925 60  0001 C CNN
+F 3 "" H 8025 1925 60  0001 C CNN
+	1    8650 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
