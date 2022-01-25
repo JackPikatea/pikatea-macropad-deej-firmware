@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
-    (tracks 227)
+    (drawings 17)
+    (tracks 237)
     (zones 0)
     (modules 20)
     (nets 50)
@@ -875,6 +875,12 @@
       (net 2 "Net-(D2-Pad1)"))
   )
 
+  (gr_text "!print Beep Beep" (at 192.1 113.3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "Pikatea Macropad XL" (at 135 83.9) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
   (gr_line (start 206.6 75.4) (end 88.3 75.4) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 206.6 116.2) (end 206.6 75.4) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 88.3 116.2) (end 206.6 116.2) (layer Edge.Cuts) (width 0.1))
@@ -891,6 +897,7 @@
   (gr_line (start 81.05148 74.32366) (end 213.15148 74.32366) (layer Dwgs.User) (width 0.05))
   (gr_line (start 213.15148 74.32366) (end 213.15148 116.37366) (layer Dwgs.User) (width 0.05))
 
+  (via (at 115.8 76.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 34))
   (segment (start 200.927482 93.40366) (end 201.69148 93.40366) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 194.223822 86.7) (end 200.927482 93.40366) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 190.9 86.7) (end 194.223822 86.7) (width 0.25) (layer F.Cu) (net 1))
@@ -1071,6 +1078,15 @@
   (segment (start 154.6 98.8) (end 154.6 96.5) (width 0.25) (layer B.Cu) (net 34))
   (segment (start 155.4 98) (end 157.8 98) (width 0.25) (layer B.Cu) (net 34))
   (segment (start 154.6 102.099502) (end 154.6 98.8) (width 0.25) (layer B.Cu) (net 34))
+  (via (at 111.3 79.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 34))
+  (segment (start 117.0305 77.1779) (end 114.4905 77.1779) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 114.8221 77.1779) (end 115.8 76.2) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 114.4905 77.1779) (end 114.8221 77.1779) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 114.4905 77.1779) (end 114.4905 78.3905) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 115.4 79.3) (end 120.2 79.3) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 114.4905 78.3905) (end 115.4 79.3) (width 0.25) (layer F.Cu) (net 34))
+  (segment (start 120 79.5) (end 120.2 79.3) (width 0.25) (layer B.Cu) (net 34))
+  (segment (start 111.3 79.5) (end 120 79.5) (width 0.25) (layer B.Cu) (net 34))
   (segment (start 149.61108 107.62994) (end 157.37006 107.62994) (width 0.25) (layer B.Cu) (net 47))
   (segment (start 157.37006 107.62994) (end 159.7 105.3) (width 0.25) (layer B.Cu) (net 47))
   (segment (start 159.7 95.3745) (end 155.9814 91.6559) (width 0.25) (layer B.Cu) (net 47))
@@ -1119,7 +1135,7 @@
   (segment (start 149.587347 79.287347) (end 149.587347 79.312653) (width 0.25) (layer F.Cu) (net 49))
   (segment (start 149.587347 79.312653) (end 149.337662 79.562338) (width 0.25) (layer F.Cu) (net 49))
 
-  (zone (net 34) (net_name GND) (layer F.Cu) (tstamp 61D7E4EE) (hatch edge 0.508)
+  (zone (net 34) (net_name GND) (layer F.Cu) (tstamp 61D7E4F6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1827,8 +1843,13 @@
         (xy 123.586312 76.203418) (xy 123.55039 76.085) (xy 150.240198 76.085)
       )
     )
+    (filled_polygon
+      (pts
+        (xy 115.835322 76.296545) (xy 115.7605 76.422155) (xy 115.685678 76.296545) (xy 115.494995 76.085) (xy 116.026005 76.085)
+      )
+    )
   )
-  (zone (net 34) (net_name GND) (layer B.Cu) (tstamp 61D7E4EB) (hatch edge 0.508)
+  (zone (net 34) (net_name GND) (layer B.Cu) (tstamp 61D7E4F3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2516,6 +2537,11 @@
         (xy 117.1775 77.0509) (xy 117.1775 77.3049) (xy 117.1575 77.3049) (xy 117.1575 77.3249) (xy 116.9035 77.3249)
         (xy 116.9035 77.3049) (xy 114.6175 77.3049) (xy 114.6175 77.3249) (xy 114.3635 77.3249) (xy 114.3635 77.3049)
         (xy 114.3435 77.3049) (xy 114.3435 77.0509) (xy 114.3635 77.0509) (xy 114.3635 77.0309) (xy 114.6175 77.0309)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 115.835322 76.296545) (xy 115.7605 76.422155) (xy 115.685678 76.296545) (xy 115.494995 76.085) (xy 116.026005 76.085)
       )
     )
   )
