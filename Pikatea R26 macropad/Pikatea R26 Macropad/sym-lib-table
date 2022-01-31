@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name 74LVC125APW_118)(type Legacy)(uri "${KIPRJMOD}/Library Files/74LVC125APW_118.lib")(options "")(descr ""))
+  (lib (name atmega32u4-ep)(type Legacy)(uri "${KIPRJMOD}/Library Files/atmega32u4-ep.lib")(options "")(descr ""))
+  (lib (name uSD_push-push_ebay)(type Legacy)(uri "${KIPRJMOD}/Library Files/uSD_push-push_ebay.lib")(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/Library Files/MX_Alps_Hybrid-master/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name TC2030-CTX)(type Legacy)(uri "${KIPRJMOD}/Library Files/TC2030-CTX/TC2030-CTX.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri "${KIPRJMOD}/Library Files/ProMicroKiCad-master/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri "${KIPRJMOD}/Library Files/teensy_library-master/teensy_library-master/teensy.lib")(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri "${KIPRJMOD}/Library Files/Type-C.pretty-master/Type-C.lib")(options "")(descr ""))
+)

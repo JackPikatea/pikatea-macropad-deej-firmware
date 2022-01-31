@@ -1,8 +1,0 @@
-(module Model-EN11_hsm0e (layer F.Cu) (tedit 60084CDF)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Model-EN11_hsm0e (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
