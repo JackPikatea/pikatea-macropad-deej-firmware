@@ -1,4 +1,4 @@
-18966817071814657
+18959645775801301
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54985,6 +54985,13 @@ LED
 4
 2
 LED_SMD
+LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder
+LED SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+4
+2
+LED_SMD
 LED_0402_1005Metric
 LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED
@@ -54992,16 +54999,16 @@ LED
 2
 2
 LED_SMD
-LED_0603_1608Metric
-LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
+LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
 0
 2
 2
 LED_SMD
-LED_0603_1608Metric_Castellated
-LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
 0
 2
 2
@@ -55015,14 +55022,7 @@ LED handsolder
 LED_SMD
 LED_0805_2012Metric
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_0805_2012Metric_Castellated
-LED SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
@@ -55034,23 +55034,9 @@ LED handsolder
 2
 2
 LED_SMD
-LED_01005_0402Metric
-LED SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
-LED
-0
-4
-2
-LED_SMD
 LED_1206_3216Metric
 LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_1206_3216Metric_Castellated
-LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
@@ -55071,14 +55057,7 @@ diode reverse
 LED_SMD
 LED_1210_3225Metric
 LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_1210_3225Metric_Castellated
-LED SMD 1210 (3225 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
@@ -55090,37 +55069,9 @@ LED handsolder
 2
 2
 LED_SMD
-LED_1806_4516Metric
-LED SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_1806_4516Metric_Castellated
-LED SMD 1806 (4516 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
-LED castellated
-0
-2
-2
-LED_SMD
-LED_1806_4516Metric_Pad1.57x1.80mm_HandSolder
-LED SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
 LED_1812_4532Metric
 LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_1812_4532Metric_Castellated
-LED SMD 1812 (4532 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
@@ -55134,14 +55085,7 @@ LED handsolder
 LED_SMD
 LED_2010_5025Metric
 LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_2010_5025Metric_Castellated
-LED SMD 2010 (5025 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
@@ -55155,41 +55099,13 @@ LED handsolder
 LED_SMD
 LED_2512_6332Metric
 LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_2512_6332Metric_Castellated
-LED SMD 2512 (6332 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED castellated
+LED
 0
 2
 2
 LED_SMD
 LED_2512_6332Metric_Pad1.52x3.35mm_HandSolder
 LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
-0
-2
-2
-LED_SMD
-LED_2816_7142Metric
-LED SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-LED_SMD
-LED_2816_7142Metric_Castellated
-LED SMD 2816 (7142 Metric), castellated end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
-LED castellated
-0
-2
-2
-LED_SMD
-LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder
-LED SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
 LED handsolder
 0
 2
@@ -55370,6 +55286,13 @@ LED RGB
 4
 4
 LED_SMD
+LED_Lumex_SML-LX0404SIUPGUSB
+Lumex RGB LED, clear, SMD, https://www.lumex.com/spec/SML-LX0404SIUPGUSB.pdf
+LED RGB
+0
+4
+4
+LED_SMD
 LED_Osram_Lx_P47F_D2mm_ReverseMount
 OSRAM, reverse-mount LED, SMD, 2mm diameter, http://www.farnell.com/datasheets/2711587.pdf
 LED ReverseMount Reverse
@@ -55432,6 +55355,13 @@ RGB LED PLCC-6
 0
 6
 6
+LED_SMD
+LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100
+3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf
+LED RGB Wurth PLCC-4
+0
+4
+4
 LED_SMD
 LED_ROHM_SMLVN6
 https://www.rohm.com/datasheet/SMLVN6RGB1U
@@ -72296,6 +72226,27 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 Pikatea
+Breakaway-Throughole
+
+
+0
+11
+4
+Pikatea
+Breakaway-Throughole-R26
+
+
+0
+11
+4
+Pikatea
+Breakaway-Throughole-R26_2
+
+
+0
+6
+4
+Pikatea
 Encoder-BI_EN11_HSM0E
 
 
@@ -72316,6 +72267,13 @@ M3 Mounting Hole
 0
 1
 1
+Pikatea
+TONYU-DY-S352818-RGBC
+
+
+0
+4
+4
 Pikatea Macropad Encoder Side Mount
 Breakaway-Throughole
 
