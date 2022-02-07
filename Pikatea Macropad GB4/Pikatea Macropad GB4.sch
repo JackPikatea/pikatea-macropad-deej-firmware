@@ -29,8 +29,6 @@ Text Label 7100 2100 0    50   ~ 0
 A0
 Text Label 7900 1800 0    50   ~ 0
 D9
-Text Label 9250 1800 0    50   ~ 0
-D6
 Text Label 7450 1800 0    50   ~ 0
 D5
 $Comp
@@ -326,7 +324,6 @@ F 3 "" H 8200 5100 50  0001 C CNN
 	1    8200 5100
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 8200 3050
 $Comp
 L Device:C_Small C1
 U 1 1 5FC85C6D
@@ -453,19 +450,19 @@ Wire Wire Line
 Connection ~ 4750 6600
 Wire Wire Line
 	4750 6600 4450 6600
-Text Label 8200 5250 0    50   ~ 0
+Text Label 8200 3050 0    50   ~ 0
 D7
 Text Label 8200 5950 0    50   ~ 0
 A0
-Text Label 8200 3950 0    50   ~ 0
+Text Label 8200 5450 0    50   ~ 0
 D5
 Text Label 8200 3650 0    50   ~ 0
 CS
 Wire Wire Line
 	8200 5150 8200 5100
-Text Label 8200 3550 0    50   ~ 0
+Text Label 8200 5250 0    50   ~ 0
 D9
-Text Label 8200 3450 0    50   ~ 0
+Text Label 8550 3150 0    50   ~ 0
 D8
 Text Label 8200 4950 0    50   ~ 0
 D6
@@ -492,14 +489,12 @@ F 3 "~" H 9500 3960 50  0001 C CNN
 	1    9500 3700
 	1    0    0    -1  
 $EndComp
-Text Label 9950 3600 0    50   ~ 0
+Text Label 9900 4250 0    50   ~ 0
 D2
 Text Label 9950 3800 0    50   ~ 0
 A0
-Text Label 9050 3600 0    50   ~ 0
+Text Label 9950 3600 0    50   ~ 0
 D4
-Text Label 9050 3800 0    50   ~ 0
-D3
 $Comp
 L power:GND #PWR0115
 U 1 1 5FCB062A
@@ -539,34 +534,34 @@ F 3 "" H 5400 2850 50  0001 C CNN
 	1    5400 2850
 	1    0    0    -1  
 $EndComp
-Text Label 10700 2000 0    50   ~ 0
+Text Label 10350 5200 0    50   ~ 0
 MISO
-Text Label 10700 2100 0    50   ~ 0
+Text Label 10350 5300 0    50   ~ 0
 MOSI
-Text Label 10700 2200 0    50   ~ 0
+Text Label 10350 5400 0    50   ~ 0
 SCK
-Text Label 10700 2300 0    50   ~ 0
+Text Label 10350 5500 0    50   ~ 0
 RESET
 $Comp
 L power:GND #PWR0117
 U 1 1 600979DD
-P 10200 2600
-F 0 "#PWR0117" H 10200 2350 50  0001 C CNN
-F 1 "GND" H 10205 2427 50  0000 C CNN
-F 2 "" H 10200 2600 50  0001 C CNN
-F 3 "" H 10200 2600 50  0001 C CNN
-	1    10200 2600
+P 9850 5800
+F 0 "#PWR0117" H 9850 5550 50  0001 C CNN
+F 1 "GND" H 9855 5627 50  0000 C CNN
+F 2 "" H 9850 5800 50  0001 C CNN
+F 3 "" H 9850 5800 50  0001 C CNN
+	1    9850 5800
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR0118
 U 1 1 60098DB5
-P 10200 1700
-F 0 "#PWR0118" H 10200 1550 50  0001 C CNN
-F 1 "VCC" V 10217 1828 50  0000 L CNN
-F 2 "" H 10200 1700 50  0001 C CNN
-F 3 "" H 10200 1700 50  0001 C CNN
-	1    10200 1700
+P 9850 4900
+F 0 "#PWR0118" H 9850 4750 50  0001 C CNN
+F 1 "VCC" V 9867 5028 50  0000 L CNN
+F 2 "" H 9850 4900 50  0001 C CNN
+F 3 "" H 9850 4900 50  0001 C CNN
+	1    9850 4900
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 5800 2650
@@ -595,22 +590,14 @@ Wire Wire Line
 	5600 4900 5800 4900
 Connection ~ 5800 4900
 Connection ~ 5950 4250
-Wire Wire Line
-	6500 2100 6900 2100
-Text Label 6500 2000 0    50   ~ 0
-D0
-Text Label 6500 1900 0    50   ~ 0
-D1
 Text Label 8200 3750 0    50   ~ 0
 D11
 Text Label 8200 4050 0    50   ~ 0
 D13
-Text Label 8200 5450 0    50   ~ 0
+Text Label 8650 5450 0    50   ~ 0
 D0
 Text Label 8200 5550 0    50   ~ 0
 D1
-Text Label 8200 4850 0    50   ~ 0
-D12
 Wire Wire Line
 	8150 2100 8600 2100
 Wire Wire Line
@@ -625,42 +612,10 @@ Text Label 8350 1800 0    50   ~ 0
 D7
 Text Label 8800 1800 0    50   ~ 0
 D8
-$Comp
-L Connector:Conn_01x03_Male J4
-U 1 1 601A4B28
-P 6300 2000
-F 0 "J4" H 6408 2281 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 6408 2190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6300 2000 50  0001 C CNN
-F 3 "~" H 6300 2000 50  0001 C CNN
-	1    6300 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J5
-U 1 1 601F09E4
-P 6700 2000
-F 0 "J5" H 6808 2281 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 6808 2190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 2000 50  0001 C CNN
-F 3 "~" H 6700 2000 50  0001 C CNN
-	1    6700 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 6900 2100
-Wire Wire Line
-	6900 2100 7250 2100
-Text Label 6900 1900 0    50   ~ 0
-D8
-Text Label 6900 2000 0    50   ~ 0
-D6
 Text Label 5750 1900 0    50   ~ 0
 D8
 Text Label 5750 2000 0    50   ~ 0
 D6
-Wire Wire Line
-	5750 2100 6500 2100
-Connection ~ 6500 2100
 $Comp
 L power:GND #PWR0101
 U 1 1 601CF47F
@@ -769,77 +724,25 @@ Wire Wire Line
 	8650 1950 9100 1950
 Connection ~ 8650 1950
 $Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 60614122
-P 3050 1750
-F 0 "J3" H 3158 2031 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3158 1940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3050 1750 50  0001 C CNN
-F 3 "~" H 3050 1750 50  0001 C CNN
-	1    3050 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J7
-U 1 1 606149C4
-P 3950 1750
-F 0 "J7" H 4058 2031 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 4058 1940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3950 1750 50  0001 C CNN
-F 3 "~" H 3950 1750 50  0001 C CNN
-	1    3950 1750
-	1    0    0    -1  
-$EndComp
-Text Label 3250 1650 0    50   ~ 0
-SCK
-Text Label 3250 1750 0    50   ~ 0
-MOSI
-Text Label 3250 1850 0    50   ~ 0
-CS
-Text Label 4150 1750 0    50   ~ 0
-MISO
-$Comp
-L power:GND #PWR0102
-U 1 1 6061DB34
-P 4150 1650
-F 0 "#PWR0102" H 4150 1400 50  0001 C CNN
-F 1 "GND" H 4155 1477 50  0000 C CNN
-F 2 "" H 4150 1650 50  0001 C CNN
-F 3 "" H 4150 1650 50  0001 C CNN
-	1    4150 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR0114
-U 1 1 606210F2
-P 4150 1850
-F 0 "#PWR0114" H 4150 1700 50  0001 C CNN
-F 1 "VCC" V 4165 1978 50  0000 L CNN
-F 2 "" H 4150 1850 50  0001 C CNN
-F 3 "" H 4150 1850 50  0001 C CNN
-	1    4150 1850
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:AVR-ISP-6 J1
 U 1 1 6089E8EE
-P 10300 2200
-F 0 "J1" H 9971 2296 50  0000 R CNN
-F 1 "AVR-ISP-6" H 9971 2205 50  0000 R CNN
-F 2 "keyboard_parts:AVR_ICSP_3x2" V 10050 2250 50  0001 C CNN
-F 3 " ~" H 9025 1650 50  0001 C CNN
-	1    10300 2200
+P 9950 5400
+F 0 "J1" H 9621 5496 50  0000 R CNN
+F 1 "AVR-ISP-6" H 9621 5405 50  0000 R CNN
+F 2 "keyboard_parts:AVR_ICSP_3x2" V 9700 5450 50  0001 C CNN
+F 3 " ~" H 8675 4850 50  0001 C CNN
+	1    9950 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x06_Male J6
 U 1 1 60A0116B
-P 5550 2000
-F 0 "J6" H 5658 2381 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5658 2290 50  0000 C CNN
-F 2 "Pikatea Macropad Encoder Side Mount:Breakaway-Throughole" H 5550 2000 50  0001 C CNN
-F 3 "~" H 5550 2000 50  0001 C CNN
-	1    5550 2000
+P 5250 1700
+F 0 "J6" H 5358 2081 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5358 1990 50  0000 C CNN
+F 2 "Pikatea Macropad Encoder Side Mount:Breakaway-Throughole" H 5250 1700 50  0001 C CNN
+F 3 "~" H 5250 1700 50  0001 C CNN
+	1    5250 1700
 	1    0    0    -1  
 $EndComp
 Text Label 5750 2300 0    50   ~ 0
@@ -925,4 +828,66 @@ F 3 "https://cdn.sparkfun.com/datasheets/Components/LED/COM-12877.pdf" H 4600 22
 	1    4500 2600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5750 2100 7250 2100
+Wire Wire Line
+	8200 3150 8550 3150
+Text Label 8200 4850 0    50   ~ 0
+D12
+Text Label 9050 3600 0    50   ~ 0
+D12
+Text Label 9050 3800 0    50   ~ 0
+D6
+Text Label 8200 3450 0    50   ~ 0
+28
+Text Label 9250 1800 0    50   ~ 0
+28
+Text Label 8200 3950 0    50   ~ 0
+31
+Text Label 600  2500 2    50   ~ 0
+31
+$Comp
+L MX_Alps_Hybrid:MX-LED MX6
+U 1 1 620A6780
+P 9550 1850
+F 0 "MX6" H 9632 2074 60  0000 C CNN
+F 1 "MX-LED" H 9632 2000 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8925 1825 60  0001 C CNN
+F 3 "" H 8925 1825 60  0001 C CNN
+	1    9550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED MX7
+U 1 1 620A6EAA
+P 10050 1850
+F 0 "MX7" H 10132 2074 60  0000 C CNN
+F 1 "MX-LED" H 10132 2000 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9425 1825 60  0001 C CNN
+F 3 "" H 9425 1825 60  0001 C CNN
+	1    10050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2100 9500 2100
+Wire Wire Line
+	9500 2100 9500 2000
+Connection ~ 9050 2100
+Wire Wire Line
+	9500 2100 10000 2100
+Wire Wire Line
+	10000 2100 10000 2000
+Connection ~ 9500 2100
+Wire Wire Line
+	9100 1950 9550 1950
+Connection ~ 9100 1950
+Connection ~ 9550 1950
+Wire Wire Line
+	9550 1950 10050 1950
+Text Label 10200 1800 0    50   ~ 0
+CS
+Text Label 8200 3550 0    50   ~ 0
+29
+Text Label 9700 1800 0    50   ~ 0
+29
 $EndSCHEMATC
