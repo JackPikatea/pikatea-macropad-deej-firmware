@@ -1,0 +1,15 @@
+Id;Designator;Package;Quantity;Designation;Manufacturer;Manufacturer Part Number
+;;;;;;
+;;;;;;
+3;D5,D7,D6,D4,D3,D2,D1;TONYU-DY-S352818-RGBC;7;APA-106-F5;TONYU;DY-S352818/RGBC/6812-2T
+4;R5,R4;R_0805_2012Metric;2;22;;
+5;R3;R_0805_2012Metric;1;10K;;
+6;C10,C5,C4,C3,C2,C1;C_0805_2012Metric;6;0u1;;
+7;C9;C_0805_2012Metric;1;1u;;
+8;C8,C7;C_0805_2012Metric;2;22p;;
+9;C6;C_0805_2012Metric;1;4u7;;
+10;U1;QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias;1;ATMEGA32U4-EP;;
+11;J1;AVR_ICSP_3x2;1;AVR-ISP-6;;
+12;SW1;SW_SPST_TL3342;1;SW_DPST;HRO;K2-1187SQ-D4SW-06
+13;J2;USB-Mini-B_ LCSC-C46398;1;USB_B_Mini;Jing Extension of the Electronic Co.;920-462A2021D10102
+14;X1;Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm;1;16MHz;Yangxing Tech;X322516MLB4SI
