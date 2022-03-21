@@ -408,7 +408,7 @@ U 1 1 6160A2E6
 P 18250 5150
 F 0 "USB1" H 18083 5947 60  0000 C CNN
 F 1 "HRO-TYPE-C-31-M-12" H 18083 5841 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-13" H 18250 5150 60  0001 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12" H 18250 5150 60  0001 C CNN
 F 3 "" H 18250 5150 60  0001 C CNN
 	1    18250 5150
 	1    0    0    -1  
@@ -521,24 +521,6 @@ Text GLabel 18550 5200 2    50   Input ~ 0
 USB_D-
 Text GLabel 18450 5300 2    50   Input ~ 0
 USB_D+
-Text GLabel 19700 2600 2    50   Input ~ 0
-MOSI
-Text GLabel 19700 2700 2    50   Input ~ 0
-MISO
-Text GLabel 19650 2500 0    50   Input ~ 0
-pin_B1
-Text GLabel 19650 2600 0    50   Input ~ 0
-pin_B2
-Text GLabel 19650 2700 0    50   Input ~ 0
-pin_B3
-Text GLabel 19700 2500 2    50   Input ~ 0
-SCK
-Wire Wire Line
-	19700 2500 19650 2500
-Wire Wire Line
-	19700 2600 19650 2600
-Wire Wire Line
-	19700 2700 19650 2700
 Wire Wire Line
 	18350 5200 18550 5200
 Wire Wire Line
@@ -925,7 +907,7 @@ Text GLabel 23500 4650 2    50   Input ~ 0
 Knob_A
 Text GLabel 23500 4750 2    50   Input ~ 0
 Knob_B
-Text GLabel 23500 3750 2    50   Input ~ 0
+Text GLabel 24250 3750 2    50   Input ~ 0
 C_5
 Text GLabel 23500 5050 2    50   Input ~ 0
 C_2
@@ -1051,4 +1033,16 @@ F 3 "" H 16800 4900 50  0001 C CNN
 $EndComp
 Text GLabel 16800 5200 2    50   Input ~ 0
 VCC_USB
+Text GLabel 23500 3650 2    50   Input ~ 0
+MOSI
+Text GLabel 24250 3850 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	24250 3850 24250 3750
+Wire Wire Line
+	23500 3750 24250 3750
+Text GLabel 23500 3550 2    50   Input ~ 0
+SCK
+Text GLabel 23500 3450 2    50   Input ~ 0
+R_1
 $EndSCHEMATC
