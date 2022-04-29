@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name "Library Files")(type "KiCad")(uri "${KIPRJMOD}/Library Files")(options "")(descr ""))
+  (lib (name "Pikatea Macropad Encoder Side Mount")(type "KiCad")(uri "${KIPRJMOD}/Library Files/Pikatea Macropad Encoder Side Mount.pretty")(options "")(descr ""))
+  (lib (name "Pikatea_SDcard_reader")(type "KiCad")(uri "${KIPRJMOD}/Library Files/Pikatea SD card Reader/Pikatea_SDcard_reader.pretty")(options "")(descr ""))
+  (lib (name "usb_mini")(type "KiCad")(uri "${KIPRJMOD}/Library Files/usb_mini.pretty")(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/Library Files/keyboard_parts.pretty-master")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/Library Files/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/Library Files/MX_Alps_Hybrid-master/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "TC2030-CTX")(type "KiCad")(uri "${KIPRJMOD}/Library Files/TC2030-CTX")(options "")(descr ""))
+  (lib (name "Type-C")(type "KiCad")(uri "C:/Users/jackr/Documents/KiCad/PikateaPCB/Pikatea Library/Type-C.pretty-master/Type-C.pretty-master")(options "")(descr ""))
+  (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/Library Files/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+  (lib (name "Pikatea")(type "KiCad")(uri "${KIPRJMOD}/Library Files/Pikatea.pretty")(options "")(descr ""))
+)
